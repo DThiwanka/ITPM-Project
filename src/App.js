@@ -1,21 +1,22 @@
-import React from "react";
-import ReactLoading from "react-loading";
+import React, { Component } from 'react';
+import {BrowserRouter,Route} from 'react-router-dom';
+import home from './components/home'
+import check from './components/checkout/checkout'
+import Footer from './components/footer/footer'
 
-import './App.css';
-function App() {
+export default class App extends Component {
+  render() {
   return (
-    <div className="App">
-      <h1>ITPM PROJECT</h1>
-      <div className="anima">
-        <ReactLoading
-            type="spinningBubbles"
-            color="#0000FF"
-            height={200}
-            width={100}
-        />
-      </div>
-    </div>
+    <BrowserRouter key={App.BrowserRouter}>
+   <div className="container">
+     <Route path="/" exact component={home} key={App.home}></Route>
+     <Route path="/check" exact component={check} key={App.check}></Route>
+    
+  </div>
+  <Footer/>
+  </BrowserRouter>
+
   );
 }
 
-export default App;
+}

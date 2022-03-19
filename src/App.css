@@ -12,3 +12,14 @@
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
+.row {
+  display: flex;
+  text-align: start;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  margin-left:10%
+}
