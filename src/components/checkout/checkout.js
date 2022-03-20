@@ -10,21 +10,22 @@ function App() {
   return (
     <div className="App">
       <h1>Checkout</h1>
-   <div className="row">
-  <div className="column">
-  <div className="svg">
+      <div class="grid-container">
+
+    <div class="grid-child purple">
+    <div className="svg">
     <SvgComponent
-            height={300}
-            width={300}
+            height={500}
+            width={500}
         />
     </div>
-  </div>
+    </div>
 
-  <div className="column">
-  <Box 
+    <div class="grid-child green text-left">
+    <Box 
       component="form"
       sx={{
-        '& > :not(style)': { m: 2, width: '500ch' },
+        '& > :not(style)': { m: 2, width: '50ch' },
       }}
       noValidate
       autoComplete="off"
@@ -37,13 +38,13 @@ function App() {
       Card Number<br/>
       <TextField id="outlined-basic" label="Card Number" variant="outlined" placeholder="112 3265 2345 6854" multiline style ={{width: '50%'}}/><br/>
       CVV Number<br/>
-      <TextField id="outlined-basic" label="CVV number" variant="outlined" placeholder="112" multiline style ={{width: '50%'}}/><br/>
+      <TextField inputProps={{ maxLength: 3 }} id="outlined-basic" label="CVV number" variant="outlined" placeholder="112" multiline style ={{width: '50%'}}/><br/>
       Expiry Date<br/>
-      <TextField id="outlined-basic" label="Expiry Date" variant="outlined" style ={{width: '50%'}}/><br/>
+      <TextField type="month"  id="outlined-basic" label="Expiry Date" variant="outlined" style ={{width: '50%'}}/><br/>
     </Box>
-  </div>
+    </div>
+  
 </div>
-
 
   </div>
 

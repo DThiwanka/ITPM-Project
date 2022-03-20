@@ -1,0 +1,21 @@
+d{
+    color: #00c535
+}
+
+.hclass{
+    font-weight: bold;
+}
+
+.flex-container {
+    display: flex;
+    border-radius: 15px;
+}
+
+.flex-child {
+    flex: 1;
+    /* border: 2px solid yellow; */
+}  
+
+.flex-child:first-child {
+    margin-right: 20px;
+} 

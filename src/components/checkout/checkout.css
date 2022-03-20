@@ -20,3 +20,12 @@
     flex: 50%;
     margin-left:10%
   }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+   align-items: center;
+  
+}

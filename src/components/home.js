@@ -22,6 +22,9 @@ function home() {
       <a href="/check">
       <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Checkout</button> 
       </a>
+      <a href="/placed">
+      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Placed</button> 
+      </a>
       <br/>
     </div>
   );

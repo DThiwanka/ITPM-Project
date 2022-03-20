@@ -39,7 +39,7 @@ class Footer extends Component {
                     </ul>
                 </div>
 
-                <div class="col-lg-4 col-md-4">
+                {/* <div class="col-lg-4 col-md-4">
                     <h5 class="text-white mb-3">Newsletter</h5>
                     <p class="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
                     <form action="#">
@@ -48,11 +48,9 @@ class Footer extends Component {
                             <button class="btn btn-primary" id="button-addon2" type="button"><i class="fas fa-paper-plane"></i></button>
                         </div>
                     </form>
-                </div>
+                </div> */}
             </div>
-          <div className="container pb-2">    
-          </div>
-          <div className="text-center text-light pt-2 pb-3">
+          <div className="text-center text-light pt-1 pb-5">
             © 2022 Copyright @TeamRealm
             <a className="text-light" href="https:/TeamRealm.com/">
               <br/>All Right Reserved</a>
