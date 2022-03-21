@@ -11,16 +11,17 @@ function SvgComponent(props) {
     >
       <style>
         {
-          "@keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes slideLeft{0%{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}@keyframes slideDown{0%{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}@keyframes slideRight{0%{opacity:0;transform:translateX(30px)}to{opacity:1;transform:translateX(0)}}svg#freepik_stories-take-away:not(.animated) .animable{opacity:0}"
+          "@keyframes fadeIn{0%{opacity:0}to{opacity:1}}@keyframes floating{0%,to{opacity:1;transform:translateY(0)}50%{transform:translateY(-10px)}}@keyframes slideLeft{0%{opacity:0;transform:translateX(-30px)}to{opacity:1;transform:translateX(0)}}@keyframes lightSpeedLeft{60%{transform:skewX(-10deg);opacity:1}80%{transform:skewX(2deg)}}@keyframes slideUp{0%{opacity:0;transform:translateY(30px)}to{opacity:1;transform:inherit}}@keyframes wind{0%{transform:rotate(0deg)}25%{transform:rotate(1deg)}75%{transform:rotate(-1deg)}}svg#freepik_stories-take-away:not(.animated) .animable{opacity:0}"
         }
       </style>
       <g
-        id="freepik--background-complete--inject-53"
+        id="freepik--background-complete--inject-96"
         className="animable"
         style={{
           transformOrigin: "383.895px 278.965px",
-          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) fadeIn",
-          animationDelay: "0s"
+          animation:
+            "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) fadeIn,1.5s Infinite linear floating",
+          animationDelay: "0s,1s"
         }}
       >
         <path
@@ -30,7 +31,7 @@ function SvgComponent(props) {
           className="animable"
           fill="#f5f5f5"
           transform="rotate(180)"
-          id="elaf88g2nvhpo"
+          id="elwuse9pvy1re"
           d="M87.08 248.12H191.23000000000002V328.45H87.08z"
         />
         <path
@@ -38,7 +39,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "113.18px 287.88px"
           }}
-          id="elk7p3lyc3n9f"
+          id="el2uc6oso4w99"
           className="animable"
           fill="#ebebeb"
         />
@@ -49,14 +50,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#fafafa"
           transform="rotate(180)"
-          id="ele7h7rmzynn5"
+          id="elktn192zp6q"
           d="M95.92 310.16H103.9V319.19H95.92z"
         />
         <path
           style={{
             transformOrigin: "153.545px 256.89px"
           }}
-          id="els87ffzt4dq"
+          id="ellw3glqtcez9"
           className="animable"
           fill="#ebebeb"
           d="M147.63 248.32H159.46V265.46H147.63z"
@@ -65,7 +66,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "153.545px 319.64px"
           }}
-          id="elf9bib20mhsj"
+          id="eldktk0dh5qm"
           className="animable"
           fill="#ebebeb"
           d="M147.63 311.07H159.46V328.21H147.63z"
@@ -74,7 +75,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "144.96px 395.885px"
           }}
-          id="elv1m1c8j8hkc"
+          id="eltgpx48qpq3"
           className="animable"
           fill="#ebebeb"
           d="M58.99 329.58H230.93V462.19H58.99z"
@@ -84,7 +85,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "187.85px 395.26px"
           }}
-          id="elul5i2he8c3n"
+          id="elkkvmzoneyo"
           className="animable"
           fill="#e0e0e0"
         />
@@ -92,7 +93,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "209.76px 439.46px"
           }}
-          id="ela77s8bkub2n"
+          id="el23zrxx8qgnx"
           className="animable"
           fill="#fafafa"
           d="M203.17 432.01H216.35V446.90999999999997H203.17z"
@@ -101,7 +102,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "121.205px 344.07px"
           }}
-          id="eldyp1ldldjaj"
+          id="eljlg7sl8h1or"
           className="animable"
           fill="#e0e0e0"
           d="M111.44 329.92H130.97V358.22H111.44z"
@@ -110,7 +111,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "121.205px 447.65px"
           }}
-          id="elgd21wz9c3a"
+          id="eldy5w7hatagp"
           className="animable"
           fill="#e0e0e0"
           d="M111.44 433.5H130.97V461.8H111.44z"
@@ -120,7 +121,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "362.76px 96px"
           }}
-          id="eld1nr6a0451a"
+          id="elilu3swzxuci"
           className="animable"
           fill="#ebebeb"
         />
@@ -129,7 +130,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "372.76px 96px"
           }}
-          id="elbcya2k4ncpb"
+          id="el4gsi87td0oj"
           className="animable"
           fill="#ebebeb"
         />
@@ -138,7 +139,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "382.76px 96px"
           }}
-          id="elpglykuz7awp"
+          id="elc5cifzqrejj"
           className="animable"
           fill="#ebebeb"
         />
@@ -147,7 +148,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "392.76px 96px"
           }}
-          id="el91w3p06676e"
+          id="el2mqey294jlk"
           className="animable"
           fill="#ebebeb"
         />
@@ -156,7 +157,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "402.76px 96px"
           }}
-          id="elj90yijbrjih"
+          id="elrlp7oqifl8"
           className="animable"
           fill="#ebebeb"
         />
@@ -165,7 +166,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "412.76px 96px"
           }}
-          id="eli4wif8ufewg"
+          id="el6uwau7i09y"
           className="animable"
           fill="#ebebeb"
         />
@@ -174,7 +175,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "422.76px 96px"
           }}
-          id="elz6la01nhht"
+          id="elblofv28wkbu"
           className="animable"
           fill="#ebebeb"
         />
@@ -183,7 +184,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "432.76px 96px"
           }}
-          id="elpupelkivk3r"
+          id="elts9cagx9d7"
           className="animable"
           fill="#ebebeb"
         />
@@ -192,7 +193,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "442.76px 96px"
           }}
-          id="elb11rs40lzm"
+          id="el535ouu3bqh5"
           className="animable"
           fill="#ebebeb"
         />
@@ -201,7 +202,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "452.76px 96px"
           }}
-          id="eljfc2btik13j"
+          id="elgp78hrihrfw"
           className="animable"
           fill="#ebebeb"
         />
@@ -210,7 +211,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "462.76px 96px"
           }}
-          id="el0hdnrcfopqbn"
+          id="elo7rnhjlbbr9"
           className="animable"
           fill="#ebebeb"
         />
@@ -219,7 +220,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "472.76px 96px"
           }}
-          id="elltb1bhq0xzc"
+          id="el1ugopxer8yh"
           className="animable"
           fill="#ebebeb"
         />
@@ -228,7 +229,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "482.76px 96px"
           }}
-          id="elh2ne0yq1grs"
+          id="el27ho4p252r7i"
           className="animable"
           fill="#ebebeb"
         />
@@ -237,7 +238,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "492.76px 96px"
           }}
-          id="eliidgc0mofn"
+          id="elzo3r7ln17wm"
           className="animable"
           fill="#ebebeb"
         />
@@ -246,7 +247,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "502.76px 96px"
           }}
-          id="elonww5lni0b"
+          id="elc0tde1j128o"
           className="animable"
           fill="#ebebeb"
         />
@@ -255,7 +256,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "512.76px 96px"
           }}
-          id="elwxvvsqg2aph"
+          id="elr3irtueep7"
           className="animable"
           fill="#ebebeb"
         />
@@ -264,7 +265,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "522.76px 96px"
           }}
-          id="elj03kpw9sqh"
+          id="elgijqn6bgz3d"
           className="animable"
           fill="#ebebeb"
         />
@@ -273,7 +274,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "532.76px 96px"
           }}
-          id="elhk11va5h4k7"
+          id="eld5a7zsrl24p"
           className="animable"
           fill="#ebebeb"
         />
@@ -282,7 +283,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "542.76px 96px"
           }}
-          id="elcy7oep9gmv"
+          id="eluo4uc0qej6b"
           className="animable"
           fill="#ebebeb"
         />
@@ -291,7 +292,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "552.76px 96px"
           }}
-          id="el5gozpuwj2n9"
+          id="elmmuwxl9ktcd"
           className="animable"
           fill="#ebebeb"
         />
@@ -300,7 +301,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "562.76px 96px"
           }}
-          id="elco9uknmqqbw"
+          id="eljkhcr0ek6r"
           className="animable"
           fill="#ebebeb"
         />
@@ -309,7 +310,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "572.76px 96px"
           }}
-          id="eltrenfy45dpe"
+          id="eln7ncehtt5c"
           className="animable"
           fill="#ebebeb"
         />
@@ -318,7 +319,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "582.76px 96px"
           }}
-          id="elguppum2m935"
+          id="elaa02x8qvj3"
           className="animable"
           fill="#ebebeb"
         />
@@ -327,7 +328,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.822px 100.91px"
           }}
-          id="eld9brbfaytnc"
+          id="elnf4o31zbbup"
           className="animable"
           fill="#ebebeb"
         />
@@ -336,7 +337,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.822px 110.91px"
           }}
-          id="elglhgu35ulhf"
+          id="eld4b6j29h89"
           className="animable"
           fill="#ebebeb"
         />
@@ -345,7 +346,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.822px 120.91px"
           }}
-          id="el4xoyqy025s4"
+          id="elurg80n3dqb"
           className="animable"
           fill="#ebebeb"
         />
@@ -354,7 +355,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.82px 130.91px"
           }}
-          id="elb3qtjgf7l1p"
+          id="elf1s9iznshl7"
           className="animable"
           fill="#ebebeb"
         />
@@ -363,7 +364,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.82px 140.91px"
           }}
-          id="elc0qmzq9y9gk"
+          id="el8rfmzp2tlxi"
           className="animable"
           fill="#ebebeb"
         />
@@ -372,7 +373,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "588.655px 150.065px"
           }}
-          id="el8jilqinu10h"
+          id="elyy732ss9mla"
           className="animable"
           fill="#ebebeb"
         />
@@ -381,7 +382,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "597.27px 151.46px"
           }}
-          id="elc8w7x1hw49e"
+          id="el4u6i6lssgs4"
           className="animable"
           fill="#ebebeb"
         />
@@ -390,7 +391,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "607.27px 151.46px"
           }}
-          id="elcj38erw9sr6"
+          id="elbwabr0fvi9j"
           className="animable"
           fill="#ebebeb"
         />
@@ -399,7 +400,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "617.27px 151.46px"
           }}
-          id="elpxp5yg4mfgb"
+          id="eld0jwxi51lg"
           className="animable"
           fill="#ebebeb"
         />
@@ -408,7 +409,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "627.27px 151.46px"
           }}
-          id="ela9qcs295hxt"
+          id="eljho9rbsbhxo"
           className="animable"
           fill="#ebebeb"
         />
@@ -417,7 +418,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "637.27px 151.46px"
           }}
-          id="elf6v1abpzebp"
+          id="el7jo9w3ze9o5"
           className="animable"
           fill="#ebebeb"
         />
@@ -426,7 +427,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "647.27px 151.46px"
           }}
-          id="elod6hpesrvr"
+          id="els23ue9bc8y"
           className="animable"
           fill="#ebebeb"
         />
@@ -435,7 +436,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "657.27px 151.46px"
           }}
-          id="el6jbbybc9dxt"
+          id="elb978f4u45y"
           className="animable"
           fill="#ebebeb"
         />
@@ -444,7 +445,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "667.27px 151.46px"
           }}
-          id="eltr4fyd3082"
+          id="eln4ihy6vsov"
           className="animable"
           fill="#ebebeb"
         />
@@ -453,7 +454,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 155.08px"
           }}
-          id="eliwm5kklg0c"
+          id="elpg96yt3zb7h"
           className="animable"
           fill="#ebebeb"
         />
@@ -462,7 +463,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 165.08px"
           }}
-          id="elb8ofjtmr3c"
+          id="elsik5isqd7ip"
           className="animable"
           fill="#ebebeb"
         />
@@ -471,7 +472,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 175.08px"
           }}
-          id="elsshza8ygfvs"
+          id="elyqh9kh3u1mp"
           className="animable"
           fill="#ebebeb"
         />
@@ -480,7 +481,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 185.08px"
           }}
-          id="el6fdo5foe6ge"
+          id="el4i1wwfntvkk"
           className="animable"
           fill="#ebebeb"
         />
@@ -489,7 +490,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 195.08px"
           }}
-          id="el11vd8bnmjia"
+          id="el2ek9333o4ru"
           className="animable"
           fill="#ebebeb"
         />
@@ -498,7 +499,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 205.08px"
           }}
-          id="el66qjh1y6cp6"
+          id="el91hr9rkkkah"
           className="animable"
           fill="#ebebeb"
         />
@@ -507,7 +508,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 215.08px"
           }}
-          id="elu4al50iq1x"
+          id="el2jmzeidffef"
           className="animable"
           fill="#ebebeb"
         />
@@ -516,7 +517,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 225.08px"
           }}
-          id="el9og9vxc8wn"
+          id="elx5wepaum7b"
           className="animable"
           fill="#ebebeb"
         />
@@ -525,7 +526,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 235.08px"
           }}
-          id="elgb9plxp7qm7"
+          id="eljjlnriuy1if"
           className="animable"
           fill="#ebebeb"
         />
@@ -534,7 +535,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 245.08px"
           }}
-          id="elymrsli1z36n"
+          id="ellcrkbi54zpi"
           className="animable"
           fill="#ebebeb"
         />
@@ -543,7 +544,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 255.08px"
           }}
-          id="el1wgpdz0h3qs"
+          id="el9l9ydbmiw2"
           className="animable"
           fill="#ebebeb"
         />
@@ -552,7 +553,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "378.774px 186.071px"
           }}
-          id="eln5pojc1vsvk"
+          id="elnqpjnduwulh"
           className="animable"
           fill="#ebebeb"
         />
@@ -561,7 +562,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "384.965px 193.345px"
           }}
-          id="elbpqdgcksfod"
+          id="el2vmn9s8gjs8"
           className="animable"
           fill="#e0e0e0"
         />
@@ -570,7 +571,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "385.485px 171.255px"
           }}
-          id="elw24j8fr2wzp"
+          id="elm9vud4htek"
           className="animable"
           fill="#e0e0e0"
         />
@@ -579,7 +580,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "403.67px 177.97px"
           }}
-          id="el0z4shwp9acfs"
+          id="elvqy1k68gwir"
           className="animable"
           fill="#e0e0e0"
         />
@@ -588,7 +589,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "388.455px 212.504px"
           }}
-          id="elob2bd3syma"
+          id="elytwts97dro"
           className="animable"
           fill="#e0e0e0"
         />
@@ -597,7 +598,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "369.895px 204.25px"
           }}
-          id="elk1gptaehzql"
+          id="elivm3iukrcg"
           className="animable"
           fill="#e0e0e0"
         />
@@ -606,7 +607,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "355.61px 232.6px"
           }}
-          id="elj0nqwypsoyk"
+          id="elpxepci8ap4"
           className="animable"
           fill="#e0e0e0"
         />
@@ -615,7 +616,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "379.27px 241.69px"
           }}
-          id="elkepovcubpy"
+          id="elw9f08wft6e"
           className="animable"
           fill="#e0e0e0"
         />
@@ -624,7 +625,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "673.66px 291.291px"
           }}
-          id="eldnm53mgj907"
+          id="el3wkij380lwk"
           className="animable"
           fill="#f5f5f5"
         />
@@ -633,7 +634,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.83px 146.46px"
           }}
-          id="ely3zgs6m4"
+          id="elopiavsfd0f7"
           className="animable"
           fill="#f5f5f5"
         />
@@ -642,7 +643,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "617.141px 143.77px"
           }}
-          id="el9oc2qn18jlf"
+          id="elfnsv3gss31g"
           className="animable"
           fill="#ebebeb"
         />
@@ -650,7 +651,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "587.825px 171.45px"
           }}
-          id="eljt7erbt6pgi"
+          id="eluugkta0w8m"
           className="animable"
           fill="#f5f5f5"
           d="M541.16 170.01H634.49V172.89H541.16z"
@@ -665,14 +666,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#ebebeb"
           transform="rotate(-45)"
-          id="elu08nuaar7i"
+          id="el15wut8ctul8"
         />
         <path
           d="M568.22 171.11a5.43 5.43 0 11-5.43-5.43 5.44 5.44 0 015.43 5.43z"
           style={{
             transformOrigin: "562.79px 171.11px"
           }}
-          id="elrrp7eux822"
+          id="eltghfcamkcwb"
           className="animable"
           fill="#fafafa"
         />
@@ -681,7 +682,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "602.55px 146.48px"
           }}
-          id="elmusamnez1p"
+          id="elmwomylwjph"
           className="animable"
           fill="#ebebeb"
         />
@@ -695,14 +696,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#ebebeb"
           transform="rotate(-45)"
-          id="elu1cdrqmn6gq"
+          id="elbfc4w1wv8zk"
         />
         <path
           d="M618.53 171.11a5.44 5.44 0 11-5.43-5.43 5.44 5.44 0 015.43 5.43z"
           style={{
             transformOrigin: "613.09px 171.12px"
           }}
-          id="el66giuhzyz5t"
+          id="ell3tyjpwpwy"
           className="animable"
           fill="#fafafa"
         />
@@ -711,13 +712,13 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "610.145px 154.08px"
           }}
-          id="elj7x136dkhha"
+          id="els3uonj8qlua"
           className="animable"
           fill="#ebebeb"
         />
       </g>
       <g
-        id="freepik--Floor--inject-53"
+        id="freepik--Floor--inject-96"
         className="animable"
         style={{
           transformOrigin: "376.11px 462.19px",
@@ -730,17 +731,18 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "376.11px 462.19px"
           }}
-          id="eltx4cr28qjdk"
+          id="elymedmmprex"
           className="animable"
           fill="#263238"
         />
       </g>
       <g
-        id="freepik--Plant--inject-53"
+        id="freepik--Plant--inject-96"
         className="animable"
         style={{
           transformOrigin: "146px 413.583px",
-          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideLeft",
+          animation:
+            "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) lightSpeedLeft",
           animationDelay: "0s"
         }}
       >
@@ -749,7 +751,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "146px 412.253px"
           }}
-          id="el60yctk38n05"
+          id="elo42j7c8959k"
           className="animable"
           fill="#ff725e"
         />
@@ -758,7 +760,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "139.495px 414.68px"
           }}
-          id="eltgatb3gmj7"
+          id="elltuh22cy18k"
           className="animable"
           fill="#263238"
         />
@@ -767,7 +769,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "148.939px 395.815px"
           }}
-          id="elf6mgq89l3r4"
+          id="ell930bxxrr"
           className="animable"
           fill="#263238"
         />
@@ -776,7 +778,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "130.295px 406.931px"
           }}
-          id="el6uxn9c5zgj4"
+          id="el13l4vhqi1d7e"
           className="animable"
           fill="#263238"
         />
@@ -785,7 +787,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "169.943px 426.01px"
           }}
-          id="elo8m94gp3cb9"
+          id="el3v8ffj4er8f"
           className="animable"
           fill="#263238"
         />
@@ -794,17 +796,17 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "139.245px 440.1px"
           }}
-          id="elpu224hocz9"
+          id="elezrs3br46xq"
           className="animable"
           fill="#263238"
         />
       </g>
       <g
-        id="freepik--Device--inject-53"
+        id="freepik--Device--inject-96"
         className="animable"
         style={{
           transformOrigin: "259.215px 256.155px",
-          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideDown",
+          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideUp",
           animationDelay: "0s"
         }}
       >
@@ -813,7 +815,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "259.215px 256.155px"
           }}
-          id="elynf0dbzzhha"
+          id="eldeaa08l52ee"
           className="animable"
           fill="#263238"
         />
@@ -822,7 +824,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "259.2px 256.195px"
           }}
-          id="elbzds6ifxj4s"
+          id="elmil56bh9ywl"
           className="animable"
           fill="#f5f5f5"
         />
@@ -831,7 +833,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "280.15px 389.29px"
           }}
-          id="el0ft98luzeo8d"
+          id="elw6yyblsdkg"
           className="animable"
           fill="#f5f5f5"
         />
@@ -840,7 +842,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "228.855px 389.9px"
           }}
-          id="el5or26ubptki"
+          id="el2k4xchgtl5w"
           className="animable"
           fill="#f5f5f5"
         />
@@ -848,7 +850,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "308.46px 388.025px"
           }}
-          id="el0203reoglvu3"
+          id="el66y2np060fc"
           className="animable"
           fill="#f5f5f5"
           d="M288.75 383.07L291.21 395.44 328.17 395.44 327.72 380.61 288.75 383.07z"
@@ -857,7 +859,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "270.43px 189.145px"
           }}
-          id="eljcenhfgr8mm"
+          id="eltd70pvbqq2"
           className="animable"
           fill="#f5f5f5"
           d="M272.59 210.08L279.58 169.57 261.28 168.21 261.28 210.08 272.59 210.08z"
@@ -866,7 +868,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "177.815px 377.805px"
           }}
-          id="elihnmtf6jxu"
+          id="eldi2c0mfx9vc"
           className="animable"
           fill="#f5f5f5"
           d="M187.48 366.88L167.62 374.66 167.56 388.73 188.07 387.43 187.48 366.88z"
@@ -875,7 +877,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "177.51px 342.06px"
           }}
-          id="eld9lmseh76ql"
+          id="el3t97rjoy482"
           className="animable"
           fill="#f5f5f5"
           d="M187.39 363.72L186.31 325.99 186.29 325.99 186.29 312.68 167.87 314.63 167.63 371.44 187.38 363.7 187.39 363.72z"
@@ -884,7 +886,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "177.09px 296.09px"
           }}
-          id="eltf3p4oh2g4"
+          id="elz3rhdps6z2"
           className="animable"
           fill="#f5f5f5"
           d="M186.29 282.98L168.02 280.56 167.89 311.62 186.29 309.67 186.29 282.98z"
@@ -893,7 +895,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "314.005px 323.82px"
           }}
-          id="eleyf7emnder6"
+          id="elhed5p1qvks"
           className="animable"
           fill="#f5f5f5"
           d="M322.48 313.24L321.71 324.06 300.13 326.38 301.8 334.94 326.29 333.09 325.93 320.82 327.88 312.7 322.48 313.24z"
@@ -902,7 +904,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "291.405px 326.06px"
           }}
-          id="el6dqa4bpcsf"
+          id="el130vjpgksv6g"
           className="animable"
           fill="#f5f5f5"
           d="M283.58 336.31L300.79 335.01 297.04 315.81 282.02 317.33 283.58 336.31z"
@@ -911,7 +913,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "305.705px 358.09px"
           }}
-          id="eldcaiodcc5bu"
+          id="elq1x5c8337sf"
           className="animable"
           fill="#f5f5f5"
           d="M283.75 338.31L285.06 354.32 287.39 376.28 288.35 381.09 327.66 378.61 326.35 335.09 283.75 338.31z"
@@ -921,7 +923,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "224.525px 268.995px"
           }}
-          id="el0w448g268p3"
+          id="eljiosdpb4l9f"
           className="animable"
           fill="#f5f5f5"
         />
@@ -929,7 +931,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "309.245px 318.93px"
           }}
-          id="eldalm6sdp8j5"
+          id="ele7hhpygsnlh"
           className="animable"
           fill="#f5f5f5"
           d="M320.45 313.45L298.04 315.71 299.74 324.41 319.83 322.25 320.45 313.45z"
@@ -939,7 +941,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "279.01px 379.51px"
           }}
-          id="elk85bisvu10c"
+          id="elf1m2e82xs6u"
           className="animable"
           fill="#f5f5f5"
         />
@@ -947,7 +949,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "214.28px 190.92px"
           }}
-          id="el0tk3klo3s0w"
+          id="el540rtnaktfk"
           className="animable"
           fill="#f5f5f5"
           d="M234.94 210.08L237.88 196.75 260.28 196.75 260.28 168.14 190.25 162.95 190.25 189.82 168.38 194.77 168.28 218.89 216.71 210.08 234.94 210.08z"
@@ -957,7 +959,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "283.84px 106.875px"
           }}
-          id="el113kc7hzuka"
+          id="elrtuqchdb62h"
           className="animable"
           fill="#f5f5f5"
         />
@@ -966,7 +968,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "307.71px 90.175px"
           }}
-          id="eli9bmj35jwoc"
+          id="elccsa3j9n1m4"
           className="animable"
           fill="#f5f5f5"
         />
@@ -975,7 +977,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "202.76px 88.62px"
           }}
-          id="elvn4mdkskdo"
+          id="el4rf53zqitao"
           className="animable"
           fill="#f5f5f5"
         />
@@ -984,7 +986,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "240.045px 98.22px"
           }}
-          id="el8r8sh3y77oh"
+          id="elm51cu46zdq"
           className="animable"
           fill="#f5f5f5"
         />
@@ -993,7 +995,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "179.27px 85.685px"
           }}
-          id="eleluy0ahg9m"
+          id="elw383p03pcj"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1001,7 +1003,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "177.82px 176.515px"
           }}
-          id="eltlhykur8pnh"
+          id="elz90tvbmim5c"
           className="animable"
           fill="#f5f5f5"
           d="M187.25 162.73L168.52 161.34 168.39 191.69 187.25 187.42 187.25 162.73z"
@@ -1010,7 +1012,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "174.605px 131.85px"
           }}
-          id="el5ahtrj4495q"
+          id="elsedzf7lb7v"
           className="animable"
           fill="#f5f5f5"
           d="M180.67 108.89L168.75 107.18 168.54 156.33 171.11 156.52 180.67 108.89z"
@@ -1019,7 +1021,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "203.055px 344.13px"
           }}
-          id="elj2wk5lnaicm"
+          id="elenlnvqxc8ov"
           className="animable"
           fill="#f5f5f5"
           d="M218.5 363.14L218.81 323.69 187.3 325.92 188.42 364.57 218.5 363.14z"
@@ -1029,7 +1031,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "254.62px 346.59px"
           }}
-          id="ela9a5dg09i15"
+          id="el6y3maii4sq"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1037,7 +1039,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "306.69px 299.84px"
           }}
-          id="elhjybhfq733d"
+          id="elw0py3zfoxqr"
           className="animable"
           fill="#f5f5f5"
           d="M333.69 288.56L333.18 283.35 279.69 288.92 281.94 316.33 328.13 311.67 333.69 288.56z"
@@ -1046,7 +1048,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "249.145px 204.915px"
           }}
-          id="el8pnywgv3z8f"
+          id="elgcj47amo8nw"
           className="animable"
           fill="#f5f5f5"
           d="M260.28 199.75L240.29 199.75 238.01 210.08 260.28 210.08 260.28 199.75z"
@@ -1056,7 +1058,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "300.825px 218.52px"
           }}
-          id="eloxzq7ijity"
+          id="ell3py3uisvg"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1064,7 +1066,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "303.115px 248.79px"
           }}
-          id="elt6g0bfzgl4g"
+          id="elpx5jortoh7l"
           className="animable"
           fill="#f5f5f5"
           d="M330.62 256.87L328.42 234.18 275.61 239.25 277.6 263.4 330.62 256.87z"
@@ -1073,7 +1075,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "177.915px 392.42px"
           }}
-          id="el6rtegdk9gvs"
+          id="el8bc5keus1ca"
           className="animable"
           fill="#f5f5f5"
           d="M188.13 389.44L167.64 390.73 167.56 389.4 167.53 395.44 188.3 395.44 188.13 389.44z"
@@ -1083,7 +1085,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "337.06px 87.72px"
           }}
-          id="eljmanaxrwhg"
+          id="ell6kivy5c1i"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1092,7 +1094,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "228.66px 355.38px"
           }}
-          id="elpo5rvqs360g"
+          id="el8rli16pkzg6"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1101,7 +1103,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "325.55px 133.475px"
           }}
-          id="el0qap209snfys"
+          id="el3gl31qjma77"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1109,7 +1111,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "289.745px 274.965px"
           }}
-          id="eldk2z0mkk5jq"
+          id="elbupmtr9it5"
           className="animable"
           fill="#f5f5f5"
           d="M279.44 285.93L301.65 283.62 297.28 264 277.84 266.4 279.44 285.93z"
@@ -1118,7 +1120,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "302.365px 184.925px"
           }}
-          id="elfpxvnrx1e3d"
+          id="elyrhgoes96e"
           className="animable"
           fill="#f5f5f5"
           d="M325.5 169.9L284.02 169.9 280.58 169.64 275.89 196.81 325.13 200.21 323.99 188.4 328.84 170.96 325.5 169.9z"
@@ -1128,7 +1130,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "304.22px 142.035px"
           }}
-          id="elwgtg2rbnukp"
+          id="eloqwggruzm8"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1136,7 +1138,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "340.515px 352.95px"
           }}
-          id="elnninwx9ntu"
+          id="elozbq5hengzi"
           className="animable"
           fill="#f5f5f5"
           d="M330.94 321.34L331.71 346.81 349.68 345.8 349.74 346.8 331.74 347.81 332.65 378.29 349.65 377.21 349.77 379.21 332.71 380.29 333.17 395.44 349.73 395.44 350.09 310.46 333.15 312.17 330.94 321.34z"
@@ -1146,7 +1148,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "198.037px 134.8px"
           }}
-          id="el1jxnte3cmgj"
+          id="el6g751uapome"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1154,7 +1156,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "275.395px 148.17px"
           }}
-          id="elea6ud0ha6f6"
+          id="elno7mcc8vsj"
           className="animable"
           fill="#f5f5f5"
           d="M284.3 164.9L290.06 164.9 281.91 131.44 260.73 132.31 261.24 163.19 284.3 164.9z"
@@ -1164,7 +1166,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "167.43px 423.61px"
           }}
-          id="el45ghygqnv3q"
+          id="elnohgxrg1g6q"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1173,7 +1175,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "241.535px 147.735px"
           }}
-          id="elkxgfxmk4yhp"
+          id="elxvuggzc1h8"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1181,7 +1183,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "315.58px 271.685px"
           }}
-          id="eljgedlggf5x"
+          id="el2ycwbsgqkhh"
           className="animable"
           fill="#f5f5f5"
           d="M330.91 259.86L298.27 263.88 302.66 283.51 332.89 280.37 330.91 259.86z"
@@ -1191,7 +1193,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "337.065px 121.695px"
           }}
-          id="el37xngzd963k"
+          id="elzfaf5ev8tk"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1199,7 +1201,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "339.855px 187.215px"
           }}
-          id="elxellk9loo7"
+          id="ellhme48fl0kk"
           className="animable"
           fill="#f5f5f5"
           d="M329.06 188.84L330.19 200.56 350.55 201.97 350.65 177.84 333.61 172.46 329.06 188.84z"
@@ -1209,7 +1211,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "341.795px 297.185px"
           }}
-          id="elklb19r14yy"
+          id="elrkreoeo9f0c"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1217,7 +1219,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "339.105px 163.07px"
           }}
-          id="elpqyr4mowi2"
+          id="elhzvy29isgfd"
           className="animable"
           fill="#f5f5f5"
           d="M327.48 165.28L350.67 172.61 350.73 159.42 327.95 153.53 327.48 165.28z"
@@ -1227,7 +1229,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "341.92px 257.53px"
           }}
-          id="elpb2x9r2m42"
+          id="el4q14gkbzbb4"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1235,7 +1237,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "340.505px 217.65px"
           }}
-          id="elmc1vtrbgdk"
+          id="el4j5se8jai4y"
           className="animable"
           fill="#f5f5f5"
           d="M333.21 231.71L350.43 230.05 350.53 204.98 330.48 203.59 333.21 231.71z"
@@ -1245,7 +1247,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "346.235px 137.245px"
           }}
-          id="elmrwslhw2ds"
+          id="eludfm2jdw7vb"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1254,7 +1256,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "345.23px 149.425px"
           }}
-          id="elrdqsvzxw8d"
+          id="el791vqo7mbwb"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1263,7 +1265,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "259.175px 229.46px"
           }}
-          id="el6c77tthummx"
+          id="el7digvc6hpbi"
           className="animable"
           fill="#fff"
         />
@@ -1271,7 +1273,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "226.26px 373.6px"
           }}
-          id="elb0t9k4lxiqp"
+          id="elu0g7w12see"
           className="animable"
           fill="#ebebeb"
           d="M233.85 365.1L190.39 368.14 190.39 382.1 262.13 378.21 233.85 365.1z"
@@ -1280,7 +1282,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "301.555px 218.965px"
           }}
-          id="el3db60hlvfm5"
+          id="elf6w9q2l6c95"
           className="animable"
           fill="#ebebeb"
           d="M323.38 206.87L279.91 204.12 277.22 211.58 278.69 233.81 325.89 228.21 323.38 206.87z"
@@ -1290,7 +1292,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "258.58px 422.16px"
           }}
-          id="elmnyubfpj3gf"
+          id="el47u3gz6il88"
           className="animable"
           fill="#ebebeb"
         />
@@ -1298,7 +1300,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "203.515px 89.1px"
           }}
-          id="elcrsxw55codn"
+          id="el7o4fh0nfhal"
           className="animable"
           fill="#ebebeb"
           d="M217.57 109.54L216.85 68.66 195.62 68.66 189.46 105.43 217.57 109.54z"
@@ -1307,7 +1309,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "305.605px 141.83px"
           }}
-          id="ellr9s7fpzd4"
+          id="els1v2qaaaxg7"
           className="animable"
           fill="#ebebeb"
           d="M320.5 160.47L322.66 151.61 307.72 123.19 288.55 132.63 294.94 159.51 320.5 160.47z"
@@ -1317,7 +1319,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "204.39px 296.355px"
           }}
-          id="elpywmh1g6t4m"
+          id="eliaxb25zrel"
           className="animable"
           fill="#ebebeb"
         />
@@ -1325,7 +1327,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "306.075px 299.325px"
           }}
-          id="elusm6afp8qdm"
+          id="elbpynetp2z5r"
           className="animable"
           fill="#ebebeb"
           d="M283.59 313.12L282.11 291.69 330.04 285.53 330.04 289.23 324.24 308.94 283.59 313.12z"
@@ -1335,7 +1337,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "242.3px 135.39px"
           }}
-          id="el5kb2ulmy2a5"
+          id="el9e343tfu8k"
           className="animable"
           fill="#ff725e"
         />
@@ -1345,14 +1347,14 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.6}
-          id="elsoat6o2ydgc"
+          id="elk5ejw2f7ix"
         >
           <path
             d="M248.13 135.14a5.84 5.84 0 11-6.08-5.58 5.84 5.84 0 016.08 5.58z"
             style={{
               transformOrigin: "242.296px 135.395px"
             }}
-            id="el6mpnhhara5k"
+            id="elugcyri7jg77"
             className="animable"
             fill="#fff"
           />
@@ -1364,7 +1366,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "242.3px 135.19px"
           }}
-          id="elp9c12fu37ck"
+          id="elx0x2to1cx6"
           className="animable"
           fill="#ff725e"
         />
@@ -1373,7 +1375,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "330.03px 368.5px"
           }}
-          id="elvmafd87tdcg"
+          id="el0uap4o5s4qg"
           className="animable"
           fill="#ff725e"
         />
@@ -1382,7 +1384,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "271.958px 251.2px"
           }}
-          id="elwu5sqsmp7wp"
+          id="elkkpxmojiz3"
           className="animable"
           fill="#ff725e"
         />
@@ -1393,7 +1395,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "217.26px 232.05px"
           }}
-          id="el4wv1yj7am0g"
+          id="eluacp1sw29qi"
           className="animable"
           fill="#ff725e"
         />
@@ -1404,7 +1406,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "217.26px 232.05px"
           }}
-          id="elugg6brffh4h"
+          id="elqbf9h3n5afg"
           className="animable"
           fill="#fafafa"
         />
@@ -1413,7 +1415,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "217.25px 232.05px"
           }}
-          id="eliss9z5fpfe"
+          id="elddvc04w8zv"
           className="animable"
           fill="#ff725e"
         />
@@ -1422,7 +1424,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "243.805px 211.565px"
           }}
-          id="elka2vxt52ofg"
+          id="elywln8cf41kc"
           className="animable"
           fill="#ff725e"
         />
@@ -1432,14 +1434,14 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.4}
-          id="elovvrnz8fr8"
+          id="elln6m05863um"
         >
           <path
             d="M261.79 200.34h-36a3.17 3.17 0 00-3.17 3.17v13a3.17 3.17 0 003.17 3.17h.42v3.11l3.61-3.11h32a3.17 3.17 0 003.17-3.17v-13a3.17 3.17 0 00-3.2-3.17z"
             style={{
               transformOrigin: "243.805px 211.565px"
             }}
-            id="el8vvcsf48od"
+            id="elb0r5s8jxad5"
             className="animable"
             fill="#fff"
           />
@@ -1449,7 +1451,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "232.879px 209.741px"
           }}
-          id="elgi94fl5ar9m"
+          id="ele383yrqy9rg"
           className="animable"
           fill="#fff"
         />
@@ -1458,7 +1460,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "237.406px 209.716px"
           }}
-          id="elmmxczgcmqpj"
+          id="elv1gx13cdn8k"
           className="animable"
           fill="#fff"
         />
@@ -1467,7 +1469,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "239.625px 210.237px"
           }}
-          id="el8cx3nddhlt7"
+          id="elmp16asvyn6o"
           className="animable"
           fill="#fff"
         />
@@ -1476,7 +1478,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "242.716px 210.317px"
           }}
-          id="elxiomqinwzco"
+          id="elccjpfusr6xo"
           className="animable"
           fill="#fff"
         />
@@ -1485,7 +1487,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "246.18px 210.32px"
           }}
-          id="elt401wwhg6nk"
+          id="eldtuifmuswws"
           className="animable"
           fill="#fff"
         />
@@ -1494,7 +1496,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "249.015px 209.981px"
           }}
-          id="elifyrv4tard"
+          id="elu74u2m1cxhb"
           className="animable"
           fill="#fff"
         />
@@ -1503,7 +1505,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "251.07px 209.68px"
           }}
-          id="el5ahcpr75qwk"
+          id="elllf20cpnzd"
           className="animable"
           fill="#fff"
         />
@@ -1512,7 +1514,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "253.505px 210.32px"
           }}
-          id="ela80j4gcgfu9"
+          id="el6qp38dk9clq"
           className="animable"
           fill="#fff"
         />
@@ -1521,7 +1523,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "256.826px 210.322px"
           }}
-          id="elwk1ubu2lu7"
+          id="elq3bbfnofzdp"
           className="animable"
           fill="#fff"
         />
@@ -1530,7 +1532,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "242.42px 117.716px"
           }}
-          id="el4yex3pamino"
+          id="elw8colyla6wh"
           className="animable"
           fill="#ff725e"
         />
@@ -1539,7 +1541,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "201.73px 412.175px"
           }}
-          id="el87nt6bt0thx"
+          id="elxk9swkyg27l"
           className="animable"
           fill="#263238"
         />
@@ -1548,7 +1550,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "204.959px 412.651px"
           }}
-          id="elnl0szm386ol"
+          id="el80dnklsuxc3"
           className="animable"
           fill="#263238"
         />
@@ -1557,7 +1559,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "207.975px 412.315px"
           }}
-          id="eljkgjjo65np"
+          id="elqoxbhv20n3"
           className="animable"
           fill="#263238"
         />
@@ -1566,7 +1568,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "210.858px 412.668px"
           }}
-          id="elrf2t85cos4o"
+          id="elhcaejfgwg2p"
           className="animable"
           fill="#263238"
         />
@@ -1575,7 +1577,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "213.5px 412.055px"
           }}
-          id="el0ixibvfj9b66"
+          id="elks0huy52ahc"
           className="animable"
           fill="#263238"
         />
@@ -1584,7 +1586,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "217.768px 412.075px"
           }}
-          id="elcn9tlrfz7v8"
+          id="ele5tn4s5ls6f"
           className="animable"
           fill="#263238"
         />
@@ -1593,7 +1595,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "220.675px 412.007px"
           }}
-          id="elzjyhhbbhwjc"
+          id="ell9rmf2zi2id"
           className="animable"
           fill="#263238"
         />
@@ -1602,7 +1604,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "222.905px 412.675px"
           }}
-          id="el4hgr5x9mc5c"
+          id="eln78trpfbivl"
           className="animable"
           fill="#263238"
         />
@@ -1611,7 +1613,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "225.535px 412.315px"
           }}
-          id="elktp0557b5va"
+          id="elcrnus8h8tvo"
           className="animable"
           fill="#263238"
         />
@@ -1620,7 +1622,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "228.428px 412.67px"
           }}
-          id="elisjgq9z4vpg"
+          id="el8z746flbq17"
           className="animable"
           fill="#263238"
         />
@@ -1629,7 +1631,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "232.242px 412.637px"
           }}
-          id="elcmo39ca7x2"
+          id="elwbim8vqocp"
           className="animable"
           fill="#263238"
         />
@@ -1638,7 +1640,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "235.925px 412.675px"
           }}
-          id="elsai16s2efu"
+          id="elqe2s14arlc"
           className="animable"
           fill="#263238"
         />
@@ -1647,7 +1649,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "239.286px 412.677px"
           }}
-          id="elopmh1dxwp4"
+          id="el3916iznv0pb"
           className="animable"
           fill="#263238"
         />
@@ -1656,7 +1658,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "203.005px 423.63px"
           }}
-          id="elp55gngvjnqa"
+          id="el9w9pr4ar1e8"
           className="animable"
           fill="#263238"
         />
@@ -1665,7 +1667,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "208.069px 428.26px"
           }}
-          id="el0k54v7jv03pm"
+          id="elpbyome7mryp"
           className="animable"
           fill="#263238"
         />
@@ -1674,7 +1676,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "211.88px 423.63px"
           }}
-          id="elcrduoh1e4hi"
+          id="el9itk90gptr"
           className="animable"
           fill="#263238"
         />
@@ -1683,7 +1685,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "219.8px 423.63px"
           }}
-          id="el12c9upcwtygq"
+          id="ellu108sr3ehr"
           className="animable"
           fill="#263238"
         />
@@ -1692,7 +1694,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "229.215px 423.63px"
           }}
-          id="elsgah5e5ortk"
+          id="ellflab2cvfi"
           className="animable"
           fill="#263238"
         />
@@ -1701,7 +1703,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "245.16px 424.708px"
           }}
-          id="elomnsqgfl7hq"
+          id="elwt4j9nz8h8p"
           className="animable"
           fill="#263238"
         />
@@ -1715,14 +1717,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#ff725e"
           transform="rotate(-76.77)"
-          id="ely8cmogm0jz8"
+          id="el9rtgax9w2yt"
         />
         <path
           d="M183.42 419.54a13.07 13.07 0 012.15-.13c1.37 0 3.33-.07 5.67-.09l-.17.37c-.67-.76-1.38-1.6-2.14-2.47l-.13-.15.13-.17 2.11-2.63.2.42h-7.87l.24-.23c0 2.54-.06 4.68-.1 6.18a14.85 14.85 0 01-.14 2.37 16.51 16.51 0 01-.14-2.37c0-1.5-.07-3.64-.09-6.18v-.23h8.59l-.34.42-2.13 2.63v-.32l2.1 2.5.32.37h-.49c-2.34 0-4.3-.06-5.67-.09a12.25 12.25 0 01-2.1-.2z"
           style={{
             transformOrigin: "187.435px 418.62px"
           }}
-          id="elg7pvh3ki3g"
+          id="eldgq4xes5xis"
           className="animable"
           fill="#fafafa"
         />
@@ -1731,7 +1733,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "309.57px 420.91px"
           }}
-          id="elz79wwovt0r"
+          id="elmoqnss3h9p"
           className="animable"
           fill="#ff725e"
         />
@@ -1740,7 +1742,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "310.435px 417.995px"
           }}
-          id="elp943iu4guz"
+          id="elzts5b6ywz79"
           className="animable"
           fill="#fafafa"
         />
@@ -1749,7 +1751,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "317.68px 417.32px"
           }}
-          id="elkra2hnr71e"
+          id="el6s0r6grdjge"
           className="animable"
           fill="#ff725e"
         />
@@ -1757,7 +1759,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "310.435px 424.155px"
           }}
-          id="elkjq3m6k4wrn"
+          id="elulwi3mty9b"
           className="animable"
           fill="#fafafa"
           d="M298.9 423.8H321.96999999999997V424.51H298.9z"
@@ -1767,7 +1769,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "304.24px 424.08px"
           }}
-          id="elg11q6b6jv2u"
+          id="elvxn0gva5to"
           className="animable"
           fill="#ff725e"
         />
@@ -1776,7 +1778,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "304.24px 424.08px"
           }}
-          id="eleisea1eh9eu"
+          id="elcb6bvyvod7"
           className="animable"
           fill="#fafafa"
         />
@@ -1785,7 +1787,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "314.075px 417.98px"
           }}
-          id="el9evft1bvlua"
+          id="el4u0raexpc53"
           className="animable"
           fill="#ff725e"
         />
@@ -1794,7 +1796,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "316.72px 424.07px"
           }}
-          id="eli619y8582pk"
+          id="ela1ykxe8slv7"
           className="animable"
           fill="#ff725e"
         />
@@ -1803,7 +1805,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "316.65px 424.08px"
           }}
-          id="eluq91ux3s3mn"
+          id="elng7qd610j9g"
           className="animable"
           fill="#fafafa"
         />
@@ -1812,18 +1814,19 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "315.96px 419.855px"
           }}
-          id="ely7tbpkksg4f"
+          id="elygayekfqwvg"
           className="animable"
           fill="#ff725e"
         />
       </g>
       <g
-        id="freepik--Character--inject-53"
-        className="animable"
+        id="freepik--Character--inject-96"
+        className="animable animator-active"
         style={{
           transformOrigin: "510.078px 308.308px",
-          animation: "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideRight",
-          animationDelay: "0s"
+          animation:
+            "1s 1 forwards cubic-bezier(.36,-.01,.5,1.38) slideUp,1.5s Infinite linear wind",
+          animationDelay: "0s,1s"
         }}
       >
         <path
@@ -1831,7 +1834,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "566.811px 260.435px"
           }}
-          id="elynqctixzy9"
+          id="el3ls8yvwezld"
           className="animable"
           fill="#ffbe9d"
         />
@@ -1840,7 +1843,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "524.02px 239.115px"
           }}
-          id="elxfi6kuqywmm"
+          id="elu74wqte00m"
           className="animable"
           fill="#ff725e"
         />
@@ -1850,11 +1853,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.2}
-          id="elwpqrbwze42d"
+          id="elgz85sgyrwyg"
         >
           <path
             d="M498.86 212.26c.08.32 19.44 27 19.44 27l38.9 12.1-1.77 14.61-47.67-9.6-16.92-19.42z"
-            id="elx6ef2q9xb8"
+            id="el9lxt92yocq"
             className="animable"
             style={{
               transformOrigin: "524.02px 239.115px"
@@ -1870,7 +1873,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "391.36px 256.695px"
           }}
-          id="elykbo98on8rb"
+          id="eltjldveiyey"
           className="animable"
           fill="#f5f5f5"
         />
@@ -1879,7 +1882,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "391.306px 256.585px"
           }}
-          id="el8q6io7lnhhm"
+          id="elm8o9z3mxuq"
           className="animable"
           fill="#263238"
         />
@@ -1893,14 +1896,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#263238"
           transform="rotate(-2.75)"
-          id="elrc85vo6g7od"
+          id="eluxih67lg6xl"
         />
         <path
           d="M604.08 420.84v.11a40.89 40.89 0 0081.77 1.18v-.11z"
           style={{
             transformOrigin: "644.964px 441.514px"
           }}
-          id="elyhe4zi8sez"
+          id="elv20751e7co8"
           className="animable"
           fill="#263238"
         />
@@ -1909,7 +1912,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "644.957px 421.537px"
           }}
-          id="elolsvbl6ag4"
+          id="elo6izly95k6q"
           className="animable"
           fill="#fafafa"
         />
@@ -1918,7 +1921,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "644.956px 407.389px"
           }}
-          id="elqzwh8gynmb"
+          id="eldvoqto068yb"
           className="animable"
           fill="#e0e0e0"
         />
@@ -1927,7 +1930,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "644.958px 421.538px"
           }}
-          id="elm20cjcbygtb"
+          id="elnmz4yzly0s"
           className="animable"
           fill="#263238"
         />
@@ -1936,7 +1939,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "640.92px 390.75px"
           }}
-          id="elk591gdifl58"
+          id="elw1aun90t4t"
           className="animable"
           fill="#ff725e"
         />
@@ -1950,14 +1953,14 @@ function SvgComponent(props) {
           className="animable"
           fill="#263238"
           transform="rotate(-2.75)"
-          id="elxfw1yjieeq"
+          id="el84f5t74zbu9"
         />
         <path
           d="M351.79 420.84v.11a40.89 40.89 0 0081.77 1.18V422z"
           style={{
             transformOrigin: "392.674px 441.511px"
           }}
-          id="elrb7gi9mgfte"
+          id="elbkm24x0rpr"
           className="animable"
           fill="#263238"
         />
@@ -1966,7 +1969,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "392.707px 421.537px"
           }}
-          id="el9mi4s0nymec"
+          id="elcci36svx8an"
           className="animable"
           fill="#fafafa"
         />
@@ -1975,7 +1978,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "392.706px 407.389px"
           }}
-          id="elq4hulken0up"
+          id="elf29sc9ey4hk"
           className="animable"
           fill="#e0e0e0"
         />
@@ -1984,7 +1987,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "392.668px 421.538px"
           }}
-          id="eloubviztbpel"
+          id="el9fyomtxfy5h"
           className="animable"
           fill="#263238"
         />
@@ -1993,7 +1996,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "420.994px 419.057px"
           }}
-          id="elut0gu8xy3yc"
+          id="elza7d2456esr"
           className="animable"
           fill="#455a64"
         />
@@ -2002,7 +2005,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "488.703px 358.648px"
           }}
-          id="elcb8r5c0uner"
+          id="el0c22dd338xb"
           className="animable"
           fill="#ff725e"
         />
@@ -2011,7 +2014,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "348.481px 400.329px"
           }}
-          id="el00pscuovp1b8b"
+          id="elbkxz6wz566t"
           className="animable"
           fill="#455a64"
         />
@@ -2020,7 +2023,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "412.424px 366.359px"
           }}
-          id="el7y3kopgk8qt"
+          id="el4mc8mr6a8ws"
           className="animable"
           fill="#263238"
         />
@@ -2029,7 +2032,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "446.486px 365.996px"
           }}
-          id="elu96f2inw4fd"
+          id="eleil3p22ilh"
           className="animable"
           fill="#f5f5f5"
         />
@@ -2039,11 +2042,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.4}
-          id="el4vb50jd7ji"
+          id="elr6jzabr0cf9"
         >
           <path
             d="M434.87 345.06a52.54 52.54 0 0119.75 8 34.91 34.91 0 0113.23 16.44c2.62 6.74 2.23 15.67-.53 21.25l9.27.77c3.12-10.41-.27-23.18-7.77-31.33a46 46 0 00-33.95-15.17"
-            id="elmxuon0t9gj"
+            id="eli32vxkxc1pi"
             className="animable"
             style={{
               transformOrigin: "456.308px 368.27px"
@@ -2059,7 +2062,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "391.365px 298.715px"
           }}
-          id="elu9b8y2vpmv"
+          id="ellsgxnjfncaa"
           className="animable"
           fill="#455a64"
         />
@@ -2068,7 +2071,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "391.155px 279.3px"
           }}
-          id="elayd9ayqh5y8"
+          id="elbkatdhlkft"
           className="animable"
           fill="#263238"
         />
@@ -2077,7 +2080,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "440.36px 338.41px"
           }}
-          id="elt6dlu1633nn"
+          id="elwaa96hjwyo"
           className="animable"
           fill="#263238"
         />
@@ -2086,7 +2089,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "476.939px 327.125px"
           }}
-          id="elrcp9ezuc3sc"
+          id="elrjplpbf5r2"
           className="animable"
           fill="#455a64"
         />
@@ -2095,7 +2098,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "577.011px 263.99px"
           }}
-          id="ela8slxjgwpf4"
+          id="elwh8ogogl4d"
           className="animable"
           fill="#ff725e"
         />
@@ -2104,7 +2107,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "599.488px 258.285px"
           }}
-          id="els05r46tci2e"
+          id="el0csvcdpu7q0j"
           className="animable"
           fill="#ebebeb"
         />
@@ -2113,7 +2116,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "563.169px 270.839px"
           }}
-          id="el3g4fr3oki3l"
+          id="elxijzv44c62"
           className="animable"
           fill="#263238"
         />
@@ -2122,7 +2125,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "556.911px 268.808px"
           }}
-          id="elg1lpfmxptwu"
+          id="elbby4uu31fu4"
           className="animable"
           fill="#ffbe9d"
         />
@@ -2131,7 +2134,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "563.17px 239.22px"
           }}
-          id="el9i9ixh7loj4"
+          id="elo62umw7orh"
           className="animable"
           fill="#263238"
         />
@@ -2140,7 +2143,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "566.824px 251.873px"
           }}
-          id="elc8i066fmnun"
+          id="elsd8s7ylx6zl"
           className="animable"
           fill="#263238"
         />
@@ -2150,11 +2153,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.4}
-          id="el8264saouttf"
+          id="eltbd6zxtkai"
         >
           <path
             d="M495 393.57c-.34-1-.7-2-1-3.07s-.68-2-.94-3a32.21 32.21 0 01-.88-4.57c-5.9 24 3.11 40.93 18.57 42.12 22.6 1.74 50.15 3 61.29.08 20.31-5.33 27.76-22.27 29.54-25.06s17.93-32.32 8-60.75-27.15-58.62-27.15-58.62L566 286.22s3 14 7.77 30.84c5.25 18.47 12.27 47.36 11.87 64.26a51 51 0 01-9.43 28.29h-74.65s-1.6-1.6-6.53-16"
-            id="elo0uxxygfe0h"
+            id="elf795fg1gikg"
             className="animable"
             style={{
               transformOrigin: "551.571px 353.786px"
@@ -2166,7 +2169,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "410.931px 392.515px"
           }}
-          id="elp8wee1efki"
+          id="elg6a7i3730fe"
           className="animable"
           fill="#ff725e"
         />
@@ -2176,11 +2179,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.6}
-          id="elgsfp09hpd"
+          id="elq968bd8q5xc"
         >
           <path
             d="M336.6 380.78l.53-5.7 136.28 15.7a13.46 13.46 0 0111.68 15.72l-.61 3.45-141-20.49a8 8 0 01-6.88-8.68z"
-            id="elc5o62k8gxu7"
+            id="elqg18i9us3ei"
             className="animable"
             style={{
               transformOrigin: "410.931px 392.515px"
@@ -2193,11 +2196,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.3}
-          id="els537n5svrdd"
+          id="elwdimn8fcxr"
         >
           <path
             d="M601.58 418.9s30-33 36.19-58.94a58.33 58.33 0 019.29.69s-17.74 48.23-45.48 58.25z"
-            id="elc220mq59v69"
+            id="elwur97k3cv1"
             className="animable"
             style={{
               transformOrigin: "624.32px 389.43px"
@@ -2209,7 +2212,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "619.017px 384.365px"
           }}
-          id="elhf9thd1ueti"
+          id="el4y1a2ols82a"
           className="animable"
           fill="#263238"
         />
@@ -2218,7 +2221,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "580.845px 414.135px"
           }}
-          id="elr1t8u2c6pe"
+          id="eliq7x6sps92"
           className="animable"
           fill="#263238"
         />
@@ -2227,7 +2230,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "499.113px 413.701px"
           }}
-          id="el7d70jzmuj8b"
+          id="elgls5cv4qbxv"
           className="animable"
           fill="#263238"
         />
@@ -2236,7 +2239,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "434.988px 421.491px"
           }}
-          id="elezezlr1la39"
+          id="el25p0kdipmxv"
           className="animable"
           fill="#263238"
         />
@@ -2245,7 +2248,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "388.716px 421.43px"
           }}
-          id="elyldnxsizth"
+          id="elyvpu7w812i"
           className="animable"
           fill="#263238"
         />
@@ -2254,7 +2257,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "392.031px 421.43px"
           }}
-          id="el5rsovue34bd"
+          id="elmahzx3ug42"
           className="animable"
           fill="#263238"
         />
@@ -2263,7 +2266,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "411.85px 333.77px"
           }}
-          id="elnp4o4y0xrfm"
+          id="elzbtez2tfjj"
           className="animable"
           fill="#263238"
         />
@@ -2272,7 +2275,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "395.19px 291.36px"
           }}
-          id="elpyl4k1ilvjm"
+          id="el2df9yiqor6x"
           className="animable"
           fill="#263238"
         />
@@ -2281,7 +2284,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "386.841px 291.3px"
           }}
-          id="el499z51ync9"
+          id="elqkm0koah9si"
           className="animable"
           fill="#263238"
         />
@@ -2290,7 +2293,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "356.82px 421.374px"
           }}
-          id="elzjznk3noqd9"
+          id="elkvuxnp8jv3b"
           className="animable"
           fill="#455a64"
         />
@@ -2299,7 +2302,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "506.02px 394.345px"
           }}
-          id="elhtf4i57i1lg"
+          id="el0t7mqhgjfbe"
           className="animable"
           fill="#455a64"
         />
@@ -2307,7 +2310,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "506.04px 403.515px"
           }}
-          id="elr00d9ltjjn"
+          id="ello81vtmby8m"
           className="animable"
           fill="#e0e0e0"
           d="M490.58 393.15L507.45 415.61 521.5 413.28 519.57 411.43 508.04 412.69 492.38 391.42 490.58 393.15z"
@@ -2317,7 +2320,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "509.776px 403.339px"
           }}
-          id="el6n2fyrxyubg"
+          id="elwcfcyy2dyi"
           className="animable"
           fill="#263238"
         />
@@ -2326,7 +2329,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "508.943px 399.376px"
           }}
-          id="el0tatev3b2ebb"
+          id="elfzrumvekkrp"
           className="animable"
           fill="#263238"
         />
@@ -2335,7 +2338,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "508.447px 394.932px"
           }}
-          id="eli1g61uv082o"
+          id="elh4njytqusb"
           className="animable"
           fill="#263238"
         />
@@ -2344,7 +2347,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "511.798px 390.753px"
           }}
-          id="el9s1b4qj25oc"
+          id="el2vu278tcfj9"
           className="animable"
           fill="#263238"
         />
@@ -2353,7 +2356,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "513.304px 385.907px"
           }}
-          id="el3tf0n2cjqj1"
+          id="el3gbaszgvzfh"
           className="animable"
           fill="#263238"
         />
@@ -2362,7 +2365,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "517.786px 387.22px"
           }}
-          id="el85wjops7vo"
+          id="elpnbp721alp"
           className="animable"
           fill="#263238"
         />
@@ -2371,7 +2374,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "500.053px 391.138px"
           }}
-          id="elx4spwkjf1n"
+          id="elxhwsyr3wfti"
           className="animable"
           fill="#e0e0e0"
         />
@@ -2380,7 +2383,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "577.04px 397.22px"
           }}
-          id="elhafzz88rls6"
+          id="elicirh12mgwj"
           className="animable"
           fill="#455a64"
         />
@@ -2389,7 +2392,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "565.93px 401.525px"
           }}
-          id="elz0yu9v6yvpg"
+          id="el8lg8ea9uvd3"
           className="animable"
           fill="#e0e0e0"
         />
@@ -2398,7 +2401,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "579.125px 409.645px"
           }}
-          id="el3yrjlww432l"
+          id="el5b8fnitbejy"
           className="animable"
           fill="#e0e0e0"
         />
@@ -2407,7 +2410,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "575.93px 401.096px"
           }}
-          id="elkt5y6307e89"
+          id="el9vkqfgpthzu"
           className="animable"
           fill="#263238"
         />
@@ -2416,7 +2419,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "580.468px 402.402px"
           }}
-          id="elt3nj8i2f0a"
+          id="el4d1q9byrp5e"
           className="animable"
           fill="#263238"
         />
@@ -2425,7 +2428,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "584.683px 403.486px"
           }}
-          id="elyudgvyidvcr"
+          id="eldb4w67mmgba"
           className="animable"
           fill="#263238"
         />
@@ -2434,7 +2437,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "574.61px 395.803px"
           }}
-          id="el77uj19teqts"
+          id="el5m4rqqm8mj"
           className="animable"
           fill="#263238"
         />
@@ -2443,7 +2446,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "572.048px 390.431px"
           }}
-          id="elai5f9iy9yvp"
+          id="el54e506c7tl6"
           className="animable"
           fill="#263238"
         />
@@ -2452,7 +2455,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "575.304px 388.717px"
           }}
-          id="elzzypga5rd8"
+          id="eljb1nodctpvc"
           className="animable"
           fill="#263238"
         />
@@ -2460,7 +2463,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "528.535px 354.675px"
           }}
-          id="elawilchhas87"
+          id="eljv59dhm0u9"
           className="animable"
           fill="#263238"
           d="M527.86 315.13L496.59 383.27 517.24 395.67 560.48 313.68"
@@ -2470,7 +2473,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "517.944px 345.251px"
           }}
-          id="elmagm0kg9jb"
+          id="el0tsccbsw0s4"
           className="animable"
           fill="#263238"
         />
@@ -2479,7 +2482,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "479.051px 248.175px"
           }}
-          id="elbazqey9kf4"
+          id="elauhyra61ten"
           className="animable"
           fill="#ff725e"
         />
@@ -2488,7 +2491,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "499.281px 240.895px"
           }}
-          id="elmr7hy373lxe"
+          id="els0s02kfkkej"
           className="animable"
           fill="#ff725e"
         />
@@ -2497,7 +2500,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "500.135px 242.119px"
           }}
-          id="ell0tmcj61mdf"
+          id="el5gi3yvuqk4s"
           className="animable"
           fill="#263238"
         />
@@ -2506,7 +2509,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "481.599px 184.15px"
           }}
-          id="el5oy8061p5lk"
+          id="elje80oyyvjv"
           className="animable"
           fill="#ffbe9d"
         />
@@ -2515,7 +2518,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "483.625px 196.223px"
           }}
-          id="eljvdm4jq4u2b"
+          id="elqm4tjnkzfrl"
           className="animable"
           fill="#eb996e"
         />
@@ -2524,7 +2527,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "492.54px 174.771px"
           }}
-          id="el7j8me3ccn2v"
+          id="ela9xs0aiwrx8"
           className="animable"
           fill="#263238"
         />
@@ -2533,7 +2536,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "491.835px 171.861px"
           }}
-          id="elucv1ydr3n8"
+          id="el4y8raub4dch"
           className="animable"
           fill="#263238"
         />
@@ -2542,7 +2545,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "481.02px 174.771px"
           }}
-          id="el6588j8cjj5q"
+          id="elqivwcnzfl5"
           className="animable"
           fill="#263238"
         />
@@ -2551,7 +2554,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "479.755px 172.091px"
           }}
-          id="el2u8sfnf0iv4"
+          id="el1dm71k9kdku"
           className="animable"
           fill="#263238"
         />
@@ -2560,7 +2563,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "487.755px 176.699px"
           }}
-          id="elksebot33k7e"
+          id="elcoqmtecbsfm"
           className="animable"
           fill="#263238"
         />
@@ -2569,7 +2572,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "484.746px 184.395px"
           }}
-          id="elfw1h5thnkjo"
+          id="eleskyqiqc987"
           className="animable"
           fill="#263238"
         />
@@ -2578,7 +2581,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "479.536px 167.775px"
           }}
-          id="el5ewa8nhcw5d"
+          id="elv7watfq8kqs"
           className="animable"
           fill="#263238"
         />
@@ -2587,7 +2590,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "491.547px 168.336px"
           }}
-          id="el6i7lg3kqfbl"
+          id="el5h1xybjlp4v"
           className="animable"
           fill="#263238"
         />
@@ -2596,7 +2599,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "466.548px 180.792px"
           }}
-          id="el7agevwdvajb"
+          id="elp3my4phglb"
           className="animable"
           fill="#ffbe9d"
         />
@@ -2605,7 +2608,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "466.354px 180.761px"
           }}
-          id="elsbxmmsd7y5e"
+          id="elbhsl0azbbyo"
           className="animable"
           fill="#eb996e"
         />
@@ -2614,7 +2617,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "478.038px 167.767px"
           }}
-          id="eljkqzuarv639"
+          id="elyigncz2k2w"
           className="animable"
           fill="#263238"
         />
@@ -2623,7 +2626,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "479.88px 163.43px"
           }}
-          id="el2bkltoxk6fw"
+          id="elvclreppfwws"
           className="animable"
           fill="#ff725e"
         />
@@ -2632,7 +2635,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "485.835px 162.972px"
           }}
-          id="elf5vdpcbfo5d"
+          id="el7yd67cgzh8j"
           className="animable"
           fill="#263238"
         />
@@ -2642,11 +2645,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.4}
-          id="elywfe23to8zk"
+          id="elnf3rn2fwq8h"
         >
           <path
             d="M495.56 163.21a9.73 9.73 0 00-6.66-3c-6.18-.27-17.74 3.2-23.34 14.4a33.78 33.78 0 01-1.36-7c0-1.62 1-11.29 10.92-14.33 0 .02 14.99-5.7 20.44 9.93z"
-            id="eldmc9qgoqw0c"
+            id="elir5jb9d1jdd"
             className="animable"
             style={{
               transformOrigin: "479.88px 163.442px"
@@ -2658,7 +2661,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "486.08px 162.609px"
           }}
-          id="el43pd0avyobl"
+          id="eliihf56d38ga"
           className="animable"
           fill="#ff725e"
         />
@@ -2668,11 +2671,11 @@ function SvgComponent(props) {
           }}
           className="animable"
           opacity={0.3}
-          id="eld5p7n9xigek"
+          id="elnty684rfug"
         >
           <path
             d="M459.06 240.52c2.16 5.21 4.34 11.64 7.47 16.33s7.31 8.86 12.51 11c6.54 2.74 14.27 3.18 20.77.38.53-.23 1.57-.52 1.47-1.09 0 0-2.15-.25-2.82-.36-13.13-2.18-14.56-3.78-20.85-8.78-3.92-3.09-12.61-12.46-18.55-17.48"
-            id="elum1oeuh8ii8"
+            id="eldm3put1ytzi"
             className="animable"
             style={{
               transformOrigin: "480.173px 255.324px"
@@ -2684,7 +2687,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "486.015px 284.588px"
           }}
-          id="eld10axk0fv0n"
+          id="elvq96p4s4gom"
           className="animable"
           fill="#263238"
         />
@@ -2693,7 +2696,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "530.53px 361.82px"
           }}
-          id="elgnond6pgkie"
+          id="elmw9nhfbn4j"
           className="animable"
           fill="#455a64"
         />
@@ -2702,7 +2705,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "546.692px 317.207px"
           }}
-          id="elr0oxzvb9w5r"
+          id="elzxbyg3l2wv"
           className="animable"
           fill="#455a64"
         />
@@ -2711,7 +2714,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "478.562px 208.584px"
           }}
-          id="el55iaodztk2v"
+          id="el54mpkpm0pmh"
           className="animable"
           fill="#263238"
         />
@@ -2720,7 +2723,7 @@ function SvgComponent(props) {
           style={{
             transformOrigin: "501.581px 233.47px"
           }}
-          id="elnntpsphbxg"
+          id="el8lkihiwbf9k"
           className="animable"
           fill="#263238"
         />
