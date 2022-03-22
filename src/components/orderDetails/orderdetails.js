@@ -1,29 +1,179 @@
-import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
-import './orderdetails.css'
+import React, { Component } from "react";
+import "./orderdetails.css";
 
 function orderdetails() {
   return (
-    <div>
-        <Container>
-      <Form>
-        <Form.Group controlId="form.Name">
-            <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter name" />
-        </Form.Group>
-        <Form.Group controlId="form.Email">
-            <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="name@example.com" />
-        </Form.Group>
-        <Form.Group controlId="form.Textarea">
-            <Form.Label>Comment</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-        </Form.Group>
-      </Form>
-    </Container>
-    </div>
-  )
+    <body>
+      <div class="mb-2">
+        <div class="row mt-3 ">
+
+
+          <div class="col-sm-7">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="card-header">
+                <i
+                  class="fa fa-chevron-circle-right fa-lg"
+                  aria-hidden="true"
+                ></i>{" "}
+                Payment Methods
+              </div>
+
+              <div class="card-body">
+                <b class="card-title">Full Name</b>
+                <p class="card-text">
+                  <form>
+                    <div class="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form6Example3"
+                        class="form-control"
+                      />
+                    </div>
+
+                    <div class="row mb-4">
+                      <div class="col">
+                        <div class="form-outline">
+                          <label class="form-label" for="form6Example1">
+                            <b>First name</b>
+                          </label>
+                          <input
+                            type="text"
+                            id="form6Example1"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-outline">
+                          <label class="form-label" for="form6Example2">
+                            <b>Last name</b>
+                          </label>
+                          <input
+                            type="text"
+                            id="form6Example2"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </p>
+                
+              </div>
+
+              
+            </div>
+          </div>
+
+
+
+
+          <div class="col-sm-4 mt-3">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="card-header">
+                <i
+                  class="fa fa-chevron-circle-right fa-lg"
+                  aria-hidden="true"
+                ></i>{" "}
+                Total
+              </div>
+
+              <div class="card-body">
+                <b class="card-title">Special title treatment</b>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-2">
+          <div class="col-sm-7">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="card-header">
+                <i
+                  class="fa fa-chevron-circle-right fa-lg"
+                  aria-hidden="true"
+                ></i>{" "}
+                Payment Methods
+              </div>
+              <div class="card-body">
+                <b class="card-title">Full Name</b>
+                <p class="card-text">
+                  <form>
+                    <div class="form-outline mb-4">
+                      <input
+                        type="text"
+                        id="form6Example3"
+                        class="form-control"
+                      />
+                    </div>
+
+                    <div class="row mb-4">
+                      <div class="col">
+                        <div class="form-outline">
+                          <label class="form-label" for="form6Example1">
+                            <b>First name</b>
+                          </label>
+                          <input
+                            type="text"
+                            id="form6Example1"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="form-outline">
+                          <label class="form-label" for="form6Example2">
+                            <b>Last name</b>
+                          </label>
+                          <input
+                            type="text"
+                            id="form6Example2"
+                            class="form-control"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+                </p>
+                
+              </div>
+            </div>
+          </div>
+         
+        </div>
+
+        <div class="row mt-3">
+          <div class="col-sm-7">
+            <div class="card shadow p-3 mb-5 bg-white rounded">
+              <div class="card-header">
+                <i
+                  class="fa fa-chevron-circle-right fa-lg"
+                  aria-hidden="true"
+                ></i>{" "}
+                Payment Methods
+              </div>
+              <div class="card-body">
+                
+                <b class="card-title">Special title treatment</b>
+                <p class="card-text">
+                  With supporting text below as a natural lead-in to additional
+                  content.
+                </p>
+                <a href="/" class="btn btn-primary">
+                  Go somewhere
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  );
 }
 
-export default orderdetails
+export default orderdetails;
