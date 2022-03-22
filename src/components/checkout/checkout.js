@@ -41,7 +41,7 @@ function App() {
       <TextField inputProps={{ maxLength: 3 }} id="outlined-basic" label="CVV number" variant="outlined" placeholder="112" multiline style ={{width: '55%'}}/><br/>
       Expiry Date<br/>
       <TextField type="month"  id="outlined-basic" label="Expiry Date" variant="outlined" style ={{width: '55%'}}/><br/>
-      <button type="button" class="btn btn-outline-danger" multiline style ={{width: '20%', float: 'right', marginRight: '272px'}}>Danger</button>
+      <button type="button" class="btn btn-outline-success" multiline style ={{width: '20%', float: 'right', marginRight: '272px'}}>Next&nbsp;&nbsp;<i class="fa fa-forward" aria-hidden="true"></i></button>
 
     </Box>
     </div>
