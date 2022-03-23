@@ -6,6 +6,8 @@ import Footer from './components/footer/footer'
 import Header from './components/header/header'
 import placed from './components/placed/placed'
 import orderdetails from './components/orderDetails/orderdetails'
+import login from './components/login/login'
+import register from './components/register/register'
 
 export default class App extends Component {
   render() {
@@ -17,6 +19,8 @@ export default class App extends Component {
      <Route path="/check" exact component={check} key={App.check}></Route>
      <Route path="/placed" exact component={placed} key={App.placed}></Route>
      <Route path="/orderdetails" exact component={orderdetails} key={App.orderdetails}></Route>
+     <Route path="/login" exact component={login} key={App.login}></Route>
+     <Route path="/register" exact component={register} key={App.register}></Route>
   </div>
   <Footer/>
   </BrowserRouter>
