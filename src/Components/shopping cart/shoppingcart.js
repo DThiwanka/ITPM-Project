@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function shoppingcart() {
+export default function shoppingCart() {
   return (
     <div>
       
