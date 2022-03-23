@@ -41,12 +41,12 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 
 
-<!-- ## Project Name - Online Pharmacy System
+## Project Name - Online Pharmacy System
 ### Batch - Weekend Batch 3.1
 ### Group Leader - `IT20126292 - Mr. Silva K.V  (IT20126292)`
 ### Member 2 - `IT20129576 - Mr. Jayarwardana J.K.M.D.T (DThiwanka)`
 ### Member 3 - `IT20200206 - Mr. Pathirana M.P.C.D (IT19092898)`
-### Member 4 - `IT20162382 - Mr. M.A.Y.P.W Bandara (yasirupanduka99)` -->
+### Member 4 - `IT20162382 - Mr. M.A.Y.P.W Bandara (yasirupanduka99)`
 
 
-<!-- #### Technologies used - Frontend: HTML, CSS (Bootstrap), React (Framework)Backend: Node JS, Database: MongoDB/Firebase, Main Language: JavaScript -->
+#### Technologies used - Frontend: HTML, CSS (Bootstrap), React (Framework)Backend: Node JS, Database: MongoDB/Firebase, Main Language: JavaScript
