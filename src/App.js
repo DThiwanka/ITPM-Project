@@ -8,6 +8,7 @@ import placed from './components/placed/placed'
 import orderdetails from './components/orderDetails/orderdetails'
 import login from './components/login/login'
 import register from './components/register/register'
+import cart from './components/shopping-cart/shoppingCart'
 import testcomponent from './components/testcomponent/test'
 
 export default class App extends Component {
@@ -26,6 +27,7 @@ export default class App extends Component {
      <Route path="/login" exact component={login} key={App.login}></Route>
      <Route path="/register" exact component={register} key={App.register}></Route>
      <Route path="/test" exact component={testcomponent} key={App.testcomponent}></Route>
+     <Route path="/cart" exact component={cart} key={App.cart}></Route>
   </div>
   <Footer/>
   </BrowserRouter>
