@@ -4,7 +4,7 @@ class Footer extends Component {
     render() {
 
         return (
-          <footer className="text-center text-light bg-dark">
+          <footer className="text-center text-light bg-dark flex-end">
               <div class="container py-5">
             <div class="row gy-5 gx-7">
                 <div class="col-lg-4 col-md-6">
