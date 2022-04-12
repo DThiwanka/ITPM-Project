@@ -4,28 +4,28 @@ import './header.css'
 const header = () => {
   return (
     <div>
-      <div class="m-0">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <div class="container-fluid">
-            <a href="/" class="navbar-brand">
+      <div className="m-0">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container-fluid">
+            <a href="/" className="navbar-brand">
               <h4>CITY MEDICALS</h4>
             </a>
             <button
               type="button"
-              class="navbar-toggler"
+              className="navbar-toggler"
               data-bs-toggle="collapse"
               data-bs-target="#navbarCollapse"
             >
-              <span class="navbar-toggler-icon"></span>
+              <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-              <div class="navbar-nav">
-                <form class="d-flex rl-5">
-                  <div class="col-rt-3 equal-height px-5">
-                    <div class="sb-example-3">
-                      <div class="search__container">
+            <div className="collapse navbar-collapse" id="navbarCollapse">
+              <div className="navbar-nav">
+                <form className="d-flex rl-5">
+                  <div className="col-rt-3 equal-height px-5">
+                    <div className="sb-example-3">
+                      <div className="search__container">
                         <input
-                          class="search__input"
+                          className="search__input"
                           type="text"
                           placeholder="Search Pharmacy Items..."
                         />
@@ -34,18 +34,18 @@ const header = () => {
                   </div>
                 </form>
               </div>
-              <div class="navbar-nav ms-auto">
-                <a href="/" class="nav-item nav-link">
-                  <i class="fa fa-user fa-2xl px-3 blackiconcolor" aria-hidden="true"></i>
+              <div className="navbar-nav ms-auto">
+                <a href="/" className="nav-item nav-link">
+                  <i className="fa fa-user fa-2xl px-3 blackiconcolor" aria-hidden="true"></i>
                 </a>
-                <a href="/" class="nav-item nav-link">
+                <a href="/" className="nav-item nav-link">
                   <i
-                    class="fa fa-shopping-cart fa-2xl px-3 blackiconcolor"
+                    className="fa fa-shopping-cart fa-2xl px-3 blackiconcolor"
                     aria-hidden="true"
                   ></i>
                 </a>
-                <a href="/" class="nav-item nav-link">
-                  <i class="fa fa-bars fa-2xl px-3 blackiconcolor" aria-hidden="true"></i>
+                <a href="/" className="nav-item nav-link">
+                  <i className="fa fa-bars fa-2xl px-3 blackiconcolor" aria-hidden="true"></i>
                 </a>
               </div>
             </div>

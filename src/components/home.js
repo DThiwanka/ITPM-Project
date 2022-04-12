@@ -22,27 +22,27 @@ function home() {
 
       {/* Checkout */}
       <a href="/check">
-      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Checkout</button> 
+      <button type="button" className="btn btn-primary btn-lg btn-block mb-2">Checkout</button> 
       </a>
 
       {/* Placed */}
       <a href="/placed">
-      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Placed</button> 
+      <button type="button" className="btn btn-primary btn-lg btn-block mb-2">Placed</button> 
       </a>
 
       {/* orderdetails */}
       <a href="/orderdetails">
-      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Order details</button> 
+      <button type="button" className="btn btn-primary btn-lg btn-block mb-2">Order details</button> 
       </a>
 
       {/* Login */}
       <a href="/login">
-      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Login</button> 
+      <button type="button" className="btn btn-primary btn-lg btn-block mb-2">Login</button> 
       </a>
 
       {/* Cart */}
       <a href="/cart">
-      <button type="button" class="btn btn-primary btn-lg btn-block mb-2">Cart</button> 
+      <button type="button" className="btn btn-primary btn-lg btn-block mb-2">Cart</button> 
       </a>
       <br/>
     </div>
