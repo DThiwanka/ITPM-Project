@@ -9,9 +9,9 @@ function App() {
   return (
     <div className="App">
       <h1>Checkout</h1>
-      <div class="grid-container">
+      <div className="grid-container">
 
-    <div class="grid-child purple">
+    <div className="grid-child purple">
     <div className="svg">
     <SvgComponent
             height={600}
@@ -20,7 +20,7 @@ function App() {
     </div>
     </div>
 
-    <div class="grid-child green text-left">
+    <div className="grid-child green text-left">
     <Box 
     classname="mt-5"
       component="form"
@@ -41,7 +41,7 @@ function App() {
       <TextField inputProps={{ maxLength: 3 }} id="outlined-basic" label="CVV number" variant="outlined" placeholder="112" multiline style ={{width: '55%'}}/><br/>
       Expiry Date<br/>
       <TextField type="month"  id="outlined-basic" label="Expiry Date" variant="outlined" style ={{width: '55%'}}/><br/>
-      <button type="button" class="btn btn-outline-success" multiline style ={{width: '20%', float: 'right', marginRight: '272px'}}>Next&nbsp;&nbsp;<i class="fa fa-forward" aria-hidden="true"></i></button>
+      <button type="button" className="btn btn-outline-success" multiline style ={{width: '20%', float: 'right', marginRight: '272px'}}>Next&nbsp;&nbsp;<i className="fa fa-forward" aria-hidden="true"></i></button>
 
     </Box>
     </div>

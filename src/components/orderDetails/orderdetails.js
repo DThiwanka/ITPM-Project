@@ -4,54 +4,54 @@ import "./orderdetails.css";
 function orderdetails() {
   return (
     <body>
-      <div class="mb-2">
-        <div class="row mt-3 ">
+      <div className="mb-2">
+        <div className="row mt-3 ">
 
 
-          <div class="col-sm-7">
-            <div class="card shadow p-3 mb-5 bg-white rounded">
-              <div class="card-header">
+          <div className="col-sm-7">
+            <div className="card shadow p-3 mb-5 bg-white rounded">
+              <div className="card-header">
                 <i
-                  class="fa fa-chevron-circle-right fa-lg"
+                  className="fa fa-chevron-circle-right fa-lg"
                   aria-hidden="true"
                 ></i>{" "}
                 Payment Methods
               </div>
 
-              <div class="card-body">
-                <b class="card-title">Full Name</b>
-                <p class="card-text">
+              <div className="card-body">
+                <b className="card-title">Full Name</b>
+                <p className="card-text">
                   <form>
-                    <div class="form-outline mb-4">
+                    <div className="form-outline mb-4">
                       <input
                         type="text"
                         id="form6Example3"
-                        class="form-control"
+                        className="form-control"
                       />
                     </div>
 
-                    <div class="row mb-4">
-                      <div class="col">
-                        <div class="form-outline">
-                          <label class="form-label" for="form6Example1">
+                    <div className="row mb-4">
+                      <div className="col">
+                        <div className="form-outline">
+                          <label className="form-label" for="form6Example1">
                             <b>First name</b>
                           </label>
                           <input
                             type="text"
                             id="form6Example1"
-                            class="form-control"
+                            className="form-control"
                           />
                         </div>
                       </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <label class="form-label" for="form6Example2">
+                      <div className="col">
+                        <div className="form-outline">
+                          <label className="form-label" for="form6Example2">
                             <b>Last name</b>
                           </label>
                           <input
                             type="text"
                             id="form6Example2"
-                            class="form-control"
+                            className="form-control"
                           />
                         </div>
                       </div>
@@ -68,19 +68,19 @@ function orderdetails() {
 
 
 
-          <div class="col-sm-4 mt-3">
-            <div class="card shadow p-3 mb-5 bg-white rounded">
-              <div class="card-header">
+          <div className="col-sm-4 mt-3">
+            <div className="card shadow p-3 mb-5 bg-white rounded">
+              <div className="card-header">
                 <i
-                  class="fa fa-chevron-circle-right fa-lg"
+                  className="fa fa-chevron-circle-right fa-lg"
                   aria-hidden="true"
                 ></i>{" "}
                 Total
               </div>
 
-              <div class="card-body">
-                <b class="card-title">Special title treatment</b>
-                <p class="card-text">
+              <div className="card-body">
+                <b className="card-title">Special title treatment</b>
+                <p className="card-text">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
@@ -90,50 +90,50 @@ function orderdetails() {
           </div>
         </div>
 
-        <div class="row mt-2">
-          <div class="col-sm-7">
-            <div class="card shadow p-3 mb-5 bg-white rounded">
-              <div class="card-header">
+        <div className="row mt-2">
+          <div className="col-sm-7">
+            <div className="card shadow p-3 mb-5 bg-white rounded">
+              <div className="card-header">
                 <i
-                  class="fa fa-chevron-circle-right fa-lg"
+                  className="fa fa-chevron-circle-right fa-lg"
                   aria-hidden="true"
                 ></i>{" "}
                 Payment Methods
               </div>
-              <div class="card-body">
-                <b class="card-title">Full Name</b>
-                <p class="card-text">
+              <div className="card-body">
+                <b className="card-title">Full Name</b>
+                <p className="card-text">
                   <form>
-                    <div class="form-outline mb-4">
+                    <div className="form-outline mb-4">
                       <input
                         type="text"
                         id="form6Example3"
-                        class="form-control"
+                        className="form-control"
                       />
                     </div>
 
-                    <div class="row mb-4">
-                      <div class="col">
-                        <div class="form-outline">
-                          <label class="form-label" for="form6Example1">
+                    <div className="row mb-4">
+                      <div className="col">
+                        <div className="form-outline">
+                          <label className="form-label" for="form6Example1">
                             <b>First name</b>
                           </label>
                           <input
                             type="text"
                             id="form6Example1"
-                            class="form-control"
+                            className="form-control"
                           />
                         </div>
                       </div>
-                      <div class="col">
-                        <div class="form-outline">
-                          <label class="form-label" for="form6Example2">
+                      <div className="col">
+                        <div className="form-outline">
+                          <label className="form-label" for="form6Example2">
                             <b>Last name</b>
                           </label>
                           <input
                             type="text"
                             id="form6Example2"
-                            class="form-control"
+                            className="form-control"
                           />
                         </div>
                       </div>
@@ -147,24 +147,24 @@ function orderdetails() {
          
         </div>
 
-        <div class="row mt-3">
-          <div class="col-sm-7">
-            <div class="card shadow p-3 mb-5 bg-white rounded">
-              <div class="card-header">
+        <div className="row mt-3">
+          <div className="col-sm-7">
+            <div className="card shadow p-3 mb-5 bg-white rounded">
+              <div className="card-header">
                 <i
-                  class="fa fa-chevron-circle-right fa-lg"
+                  className="fa fa-chevron-circle-right fa-lg"
                   aria-hidden="true"
                 ></i>{" "}
                 Payment Methods
               </div>
-              <div class="card-body">
+              <div className="card-body">
                 
-                <b class="card-title">Special title treatment</b>
-                <p class="card-text">
+                <b className="card-title">Special title treatment</b>
+                <p className="card-text">
                   With supporting text below as a natural lead-in to additional
                   content.
                 </p>
-                <a href="/" class="btn btn-primary">
+                <a href="/" className="btn btn-primary">
                   Go somewhere
                 </a>
               </div>

@@ -6,15 +6,15 @@ function login() {
     <div>
           <div className="App">
       <h1>Login</h1>
-      <div class="grid-container">
-    <div class="grid-child purple">
+      <div className="grid-container">
+    <div className="grid-child purple">
     <h1>
       Test Area
     </h1>
    
     </div>
 
-    <div class="grid-child green text-left">
+    <div className="grid-child green text-left">
     <div className="svg">
     <SvgComponent
             className="mt-3"
