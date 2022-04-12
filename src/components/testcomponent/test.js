@@ -3,9 +3,7 @@ import React from 'react'
 function test() {
   return (
     <div>
-      <h1>
-          Test Component
-      </h1>
+      Test Component
     </div>
   )
 }
