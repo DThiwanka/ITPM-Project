@@ -1,4 +1,15 @@
+body{
+    background-color: #F8F8F8;
+}
+
+.HomeContainer{
+    background-color: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-flex;
+}
+
 .main_quotes{
-    background-color: red;
+    background-color: none;
     margin-top: 100px;
 }

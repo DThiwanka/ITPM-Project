@@ -1,10 +1,10 @@
 import React from 'react';
 import '../CSS/home.css';
 
-function home() {
+function Home() {
   return (
     
-    <div>
+    <div className="HomeContainer">
 
       <div classname="main_quotes">
         <h1>
@@ -31,4 +31,4 @@ function home() {
   );
 }
 
-export default home
+export default Home
