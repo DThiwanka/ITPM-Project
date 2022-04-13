@@ -10,6 +10,7 @@ import login from './components/login/login'
 import register from './components/register/register'
 import cart from './components/shopping-cart/shoppingCart'
 import testcomponent from './components/testcomponent/test'
+import Navigation from './components/navigation/nav'
 
 export default class App extends Component {
   render() {
@@ -17,7 +18,8 @@ export default class App extends Component {
     <BrowserRouter key={App.BrowserRouter}>
       
       <Header/>
-   <div className="container">
+      <Navigation/>
+ 
      <Route path="/" exact component={home} key={App.home}></Route>
      <Route path="/check" exact component={check} key={App.check}></Route>
      <switch>
@@ -28,7 +30,8 @@ export default class App extends Component {
      <Route path="/register" exact component={register} key={App.register}></Route>
      <Route path="/test" exact component={testcomponent} key={App.testcomponent}></Route>
      <Route path="/cart" exact component={cart} key={App.cart}></Route>
-  </div>
+     
+
   <Footer/>
   </BrowserRouter>
 
