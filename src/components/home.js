@@ -31,7 +31,7 @@ function Home() {
   //   myIndex++;
   //   if (myIndex > x.length) { myIndex = 1 }
   //   x[myIndex - 1].style.display = "block";
-  //   setTimeout(carousel, 2000); // Change image every 2 seconds
+  //   setTimeout(carousel, 5000); // Change image every 5 seconds
   // }
 
   return (
@@ -63,6 +63,7 @@ function Home() {
 
       {/* Home user manual steps */}
       <div className="Steps">
+
         <div className="boxContainers">
           <div className="boxImage">
             <img src={user_ico} />
@@ -72,6 +73,7 @@ function Home() {
             or if you are a new comer you want to register
             with the system.</p>
         </div>
+
         <div className="boxContainers">
           <div className="boxImage">
             <img src={medicine_ico} />
@@ -81,6 +83,7 @@ function Home() {
             Misdiagnosis of medication
             can cause you discomfort.</p>
         </div>
+
         <div className="boxContainers">
           <div className="boxImage">
             <img src={cart_ico} />
@@ -89,6 +92,7 @@ function Home() {
           <p>When Selecting the required medication,
             be sure to add the medication to the cart.</p>
         </div>
+
         <div className="boxContainers">
           <div className="boxImage">
             <img src={payment_ico} />&nbsp; + &nbsp;<img src={verify_ico} />
@@ -98,6 +102,7 @@ function Home() {
             when making payments. After You will receive
             a summary from us regarding your order.</p>
         </div>
+
         <div id="lastBox" className="boxContainers">
           <div className="boxImage">
             <img src={delivery_ico} />
@@ -107,6 +112,7 @@ function Home() {
             order is delivered to you in the shortest
             possible time.</p>
         </div>
+
       </div>
 
 
