@@ -16,10 +16,14 @@
 .footerContainer {
     background-color: white;
     padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+
+/* Starting Footer Content CSS */
+.FooterContent{
     display: inline-flex;
     width: 100%;
-    margin-top: 50px;
 }
 
 .footerBoxs {
@@ -55,3 +59,17 @@
     width: 50px;
     height: 35px;
 }
+
+/* Ended Footer Content CSS */
+
+
+
+
+/* Starting Footer copyright CSS */
+.copyRight{
+    margin-top: 40px;
+    background-color: none;
+    text-align: center;
+}
+
+/* Ended Footer copyright CSS */

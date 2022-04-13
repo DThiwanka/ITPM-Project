@@ -13,41 +13,52 @@ const Footer = () => {
     return (
         <div className="footerContainer">
 
-            <div id="firstFooterBox" className="footerBoxs">
-                <h3><u>Contact Details</u></h3>
-                <p>+947X - XXXXXXX</p>
-                <p>+947X - XXXXXXX</p>
-                <p>citymedic@gmail.com</p>
+            {/* Footer Content */}
+            <div className="FooterContent">
+                <div id="firstFooterBox" className="footerBoxs">
+                    <h3><u>Contact Details</u></h3>
+                    <p>+947X - XXXXXXX</p>
+                    <p>+947X - XXXXXXX</p>
+                    <p>citymedic@gmail.com</p>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Address</u></h3>
+                    <p>
+                        No 10, <br />
+                        Jesmin Road, <br />
+                        Kande Waththa, <br />
+                        Mahanuwara
+                    </p>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Other Services</u></h3>
+                    <p>Delight 8 Resturant</p>
+                    <p>JK Travellings</p>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Sponsers</u></h3>
+                    <a href="https://www.johnsonsbaby.com/" target="_blank"><p>Johnson's Baby Soap</p></a>
+                    <a href="https://www.signal.lk/toothpaste.html" target="_blank"><p>Signal</p></a>
+                    <p>VISA & MASTER Cards</p>
+                    <a href="https://www.visa.com.lk/" target="_blank"><img className="visacard_img" src={visa_ico} /></a> <a href="https://www.mastercard.us/en-us.html" target="_blank"><img className="mastercard_img" src={master_ico} /></a>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Follow Us</u></h3>
+                    <a href="https://www.linkedin.com/" target="_blank"><img className="socialmedia_imgs" src={linkedin_ico} /></a> <a href="https://twitter.com/?lang=en" target="_blank"><img className="socialmedia_imgs" src={twitter_ico} /></a> <a href="https://www.facebook.com/" target="_blank"><img className="socialmedia_imgs" src={facebook_ico} /></a> <a href="https://www.instagram.com/" target="_blank"><img className="socialmedia_imgs" src={instagram_ico} /></a>
+                </div>
             </div>
 
-            <div className="footerBoxs">
-                <h3><u>Address</u></h3>
-                <p>
-                    No 10, <br />
-                    Jesmin Road, <br />
-                    Kande Waththa, <br />
-                    Mahanuwara
-                </p>
+            <div className="copyRight">
+                <h4>
+                    Copyright &copy;Team_Realm <br />
+                    AllRight Reserved
+                </h4>
             </div>
 
-            <div className="footerBoxs">
-                <h3><u>Other Services</u></h3>
-                <p>Delight 8 Resturant</p>
-                <p>JK Travellings</p>
-            </div>
-
-            <div className="footerBoxs">
-                <h3><u>Sponsers</u></h3>
-                <p>Johnson's Baby Soap</p>
-                <p>Signal</p>
-                <p>VISA & MASTER Cards</p>
-                <img className="visacard_img"  src={visa_ico}/> <img className="mastercard_img" src={master_ico}/>
-            </div>
-
-            <div className="footerBoxs">
-                <h3><u>Follow Us</u></h3>
-                <img className="socialmedia_imgs" src={linkedin_ico}/> <img className="socialmedia_imgs" src={twitter_ico}/> <img className="socialmedia_imgs" src={facebook_ico}/> <img className="socialmedia_imgs" src={instagram_ico}/>
-            </div>
 
         </div>
     )
