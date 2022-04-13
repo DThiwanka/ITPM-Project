@@ -7,16 +7,16 @@ const Header = () => {
             <nav className="navContainer">
 
                 <div className="navSector1">
-                    <h2>CITY MEDICALS</h2>
+                    <a href="/"><h2 className="LOGO">CITY MEDICALS</h2></a>
                     <form className="searchbox">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search Pharmacy Items..." aria-label="Search" />
+                        <input className="form-control mr-sm-2" type="search" placeholder="Search Pharmacy Items..." aria-label="Search" />
                     </form>
                     <div className="buttonContainer">
                         <div className="userButton">
-                            <a href='#'><i class="fa-solid fa-user"></i>User</a>
+                            <a href='#'><i className="fa-solid fa-user"></i>User</a>
                         </div>
                         <div className="cartButton">
-                            <a href='#'><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                            <a href='#'><i className="fa-solid fa-cart-shopping"></i>Cart</a>
                         </div>
                     </div>
 

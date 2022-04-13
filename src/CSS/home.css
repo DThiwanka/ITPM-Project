@@ -1,15 +1,56 @@
-body{
+body {
     background-color: #F8F8F8;
 }
 
-.HomeContainer{
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+.HomeContainer {
     background-color: none;
     margin-left: 50px;
     margin-right: 50px;
-    display: inline-flex;
 }
 
-.main_quotes{
+.homeSector1 {
     background-color: none;
-    margin-top: 100px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+.main_quotes {
+    background-color: none;
+    width: fit-content;
+    margin-top: 45px;
+}
+
+.homeMainText {
+    font-family: mySamsungSharpSans;
+    font-size: 4em;
+}
+
+.homeSector1 p {
+    font-weight: 600;
+    margin-top: -50px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+#homeSlider {
+    background-color: none;
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+}
+
+#homeSlider img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.8em;
 }
