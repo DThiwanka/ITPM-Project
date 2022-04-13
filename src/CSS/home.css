@@ -7,11 +7,24 @@ body {
     src: url(../Fonts/SamsungSharpSans-Bold.ttf);
 }
 
+@font-face {
+    font-family: mySamsungOne-700;
+    src: url(../Fonts/SamsungOne-700.ttf);
+}
+
+@font-face {
+    font-family: mySamsungOne-400;
+    src: url(../Fonts/SamsungOne-400.ttf);
+}
+
 .HomeContainer {
     background-color: none;
     margin-left: 50px;
     margin-right: 50px;
 }
+
+
+/* Starting Home Sector1 CSS */
 
 .homeSector1 {
     background-color: none;
@@ -27,6 +40,7 @@ body {
     background-color: none;
     width: fit-content;
     margin-top: 45px;
+    margin-left: 70px;
 }
 
 .homeMainText {
@@ -54,3 +68,61 @@ body {
     max-height: 100%;
     border-radius: 0.8em;
 }
+
+
+/* Ending Home Sector1 CSS */
+
+
+
+
+
+/* Starting Home user manual Steps CSS */
+.Steps{
+    display: inline-flex;
+    background-color: none;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.boxContainers{
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    width: 278px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.2em;
+    border-color: #02ACDF;
+    
+}
+
+#lastBox{
+    margin-right: -50px;
+}
+
+.boxImage{
+    display: flex;
+    justify-content: center;
+}
+
+.boxImage img{
+    width: 35px;
+    height: 35px;
+}
+
+.boxContainers h3{
+    font-weight: 500;
+    font-family: mySamsungSharpSans;
+    text-align: center;
+}
+
+.boxContainers p{
+    font-family: mySamsungOne-400;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Ending Home user manual Steps CSS */
