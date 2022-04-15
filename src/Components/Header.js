@@ -25,7 +25,7 @@ const Header = () => {
                 <div className="navSector2">
                     <div className="navigationButtons">
                         <a href="/"><button className="navButtons">Home</button></a>
-                        <a href="#"><button className="navButtons">Categories</button></a>
+                        <a href="#catContainer"><button className="navButtons">Categories</button></a>
                         <a href="#"><button className="navButtons">Services</button></a>
                         <a href="#"><button className="navButtons">Feedback</button></a>
                     </div>

@@ -7,6 +7,10 @@ a {
     padding-right: 50px;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F8F8F8;
 }
 
 
@@ -21,7 +25,7 @@ a {
 
 }
 
-.LOGO{
+.LOGO {
     color: #000000;
 }
 
@@ -49,6 +53,7 @@ a {
     position: absolute;
     right: 0;
     justify-content: right;
+    margin-right: 90px;
 }
 
 .userButton {
@@ -105,7 +110,7 @@ a {
     background: none;
 }
 
-.navButtons:hover{
+.navButtons:hover {
     color: #0095C4;
     background: fixed;
     background-color: #E8E8E8;

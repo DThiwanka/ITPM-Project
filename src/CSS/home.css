@@ -21,11 +21,13 @@ body {
     background-color: none;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 170px;
 }
 
 
-/* Starting Home Sector1 CSS */
+/* Starting First Look view CSS*/
 
+/* Starting Home Sector1 CSS */
 .homeSector1 {
     background-color: none;
     width: 100%;
@@ -87,7 +89,7 @@ body {
 .boxContainers{
     margin-right: 50px;
     background-color: #FFFFFF;
-    width: 278px;
+    width: 275px;
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -126,3 +128,62 @@ body {
 }
 
 /* Ending Home user manual Steps CSS */
+
+/* Ended First Look view CSS*/
+
+
+
+
+/* Starting categories view CSS*/
+#catContainer{
+    background-color: yelnonelow;
+    padding-top: 30px;
+}
+
+.categoriesContainer{
+    background-color: nonered;
+    margin-top: 100px;
+}
+
+.cateTitle{
+    background-color: none;
+}
+
+.cateTitle h3{
+    font-family: mySamsungSharpSans;
+}
+
+.categories{
+    background-color: none;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categoryBox{
+    background-color: none;
+    width: 500px;
+    height: 260px;
+    margin: 30px 50px 0px 50px;
+    border-radius: 15px;
+}
+
+.categoryBox img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.categoryBox h4{
+    font-family: mySamsungSharpSans;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.categoryBox h4:hover{
+    color: #0095C4;
+}
+
+/* Ended categories view CSS*/

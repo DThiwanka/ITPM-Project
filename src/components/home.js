@@ -5,9 +5,9 @@ import React from 'react';
 import '../CSS/home.css';
 
 //import sample slider images
-import slider1 from '../Images/markus-spiske-DnBtFBnqlRc-unsplash.jpg'
-import slider2 from '../Images/ibrahim-boran-zsKFQs2kDpM-unsplash.jpg'
-import slider3 from '../Images/towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg'
+import slider1 from '../Images/Slider_Images/markus-spiske-DnBtFBnqlRc-unsplash.jpg'
+import slider2 from '../Images/Slider_Images/ibrahim-boran-zsKFQs2kDpM-unsplash.jpg'
+import slider3 from '../Images/Slider_Images/towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg'
 
 // import icons
 import user_ico from '../Icons/Home_Steps_Icons/user.png'
@@ -16,6 +16,14 @@ import cart_ico from '../Icons/Home_Steps_Icons/cart.png'
 import payment_ico from '../Icons/Home_Steps_Icons/credit-card.png'
 import verify_ico from '../Icons/Home_Steps_Icons/verify.png'
 import delivery_ico from '../Icons/Home_Steps_Icons/delivery-truck.png'
+
+//import category images
+import medic_cat_img from '../Images/Category_Images/medicine.png'
+import babyItems_cat_img from '../Images/Category_Images/baby_items.png'
+import beauty_cat_img from '../Images/Category_Images/beauty.png'
+import localMedic_cat_img from '../Images/Category_Images/local_medicine.png'
+import equipments_cat_img from '../Images/Category_Images/medical_equipments.png'
+import fitness_cat_img from '../Images/Category_Images/fitness_and_supplements.png'
 
 function Home() {
 
@@ -38,7 +46,8 @@ function Home() {
 
     <div className="HomeContainer">
 
-      <div className="homeSector1">
+      {/* Starting First look view implementing */}
+      <div id="hSector1" className="homeSector1">
 
         {/* Home main text */}
         <div className="main_quotes">
@@ -114,6 +123,67 @@ function Home() {
         </div>
 
       </div>
+      {/* Ended First look view implementing */}
+
+
+
+      {/* Starting Categories view implementing */}
+      <div id="catContainer">
+        <div className="categoriesContainer">
+
+          <div className="cateTitle">
+            <h3><u>CATEGORIES</u></h3>
+          </div>
+
+          <div className="categories">
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={medic_cat_img} />
+                <h4>Medicine</h4>
+              </a>
+            </div>
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={babyItems_cat_img} />
+                <h4>Baby Items</h4>
+              </a>
+            </div>
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={beauty_cat_img} />
+                <h4>Beauty</h4>
+              </a>
+            </div>
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={localMedic_cat_img} />
+                <h4>Local Medicine</h4>
+              </a>
+            </div>
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={equipments_cat_img} />
+                <h4>Medical Equipments</h4>
+              </a>
+            </div>
+
+            <div className="categoryBox">
+              <a href="#">
+                <img src={fitness_cat_img} />
+                <h4>Fitness & Supplements</h4>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      {/* Ended Categories view implementing */}
 
 
       {/* Another part */}
