@@ -28,3 +28,19 @@
     text-align: left;
    align-items: center;
 }
+
+.hrdivider {
+  position: relative;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.hrdivider span {
+  position: absolute;
+  top: -11px;
+  background: #fff;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
