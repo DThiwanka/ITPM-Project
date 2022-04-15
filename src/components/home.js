@@ -196,7 +196,25 @@ function Home() {
 
 
       {/* Starting Services view implementing */}
-      <div className="servicesContainer">
+      <div id="servId" className="servicesContainer">
+
+        <div className="cateTitle">
+          <h3><u>SERVICES</u></h3>
+        </div>
+
+        <div className="service">
+          <h4>Our Story</h4>
+          <p>City Medicals (Pvt) Ltd, is an online portal, which is a company duly incorporated in the Democratic Socialist Republic of Sri Lanka under the Companies Act
+            No.7 of 2007 bearing Registration No.62637 and having its registered office at Ground floor, No.10 Jesmin Road, Kande Waththa, Kandy.</p>
+        </div>
+
+        <div className="service">
+          <h4>Our Service</h4>
+          <p>The ageing of the population, technological advances, new public health threats, evolving patients expectations and shrinking budget are putting under pressure
+            health care systems in Europe and beyond. An increasing portion of health care expenditure is on pharmaceutical and chronic diseases. All these factors are
+            pushing for change. And community pharmacy is changing too to respond to these challenges and meet patients’ needs by shifting the focus from dispensing
+            medicines and diseases to patient.</p>
+        </div>
 
         <div className="service">
           <h4>Our Story</h4>

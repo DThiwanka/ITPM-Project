@@ -221,7 +221,25 @@ body {
 
 
 /* Starting Services view CSS*/
+.servicesContainer{
+    background-color: none;
+    padding-top: 120px;
+}
 
+.service{
+    background-color: none;
+    margin-top: 30px;
+}
+
+.service h4{
+    font-family: mySamsungSharpSans;
+    margin-bottom: -10px;
+}
+
+.service p{
+    font-weight: 600;
+    font-size: 0.9em;
+}
 
 
 /* Ended Services view CSS*/
