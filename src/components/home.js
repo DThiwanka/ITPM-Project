@@ -16,6 +16,7 @@ import cart_ico from '../Icons/Home_Steps_Icons/cart.png'
 import payment_ico from '../Icons/Home_Steps_Icons/credit-card.png'
 import verify_ico from '../Icons/Home_Steps_Icons/verify.png'
 import delivery_ico from '../Icons/Home_Steps_Icons/delivery-truck.png'
+import verify_black_ico from '../Icons/Category_instruction_Icons/verified.png'
 
 //import category images
 import medic_cat_img from '../Images/Category_Images/medicine.png'
@@ -178,6 +179,13 @@ function Home() {
                 <h4>Fitness & Supplements</h4>
               </a>
             </div>
+          </div>
+
+
+          {/* For Instruction */}
+          <div className="instructionContainer">
+          <img src={verify_black_ico}/><p>Use the category section to search for required medicines or other materials. We kindly inform you that we have made this reservation for the convenience of the
+              customers who come to us.</p>
           </div>
 
         </div>

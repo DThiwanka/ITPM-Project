@@ -141,7 +141,7 @@ body {
 }
 
 .categoriesContainer{
-    background-color: nonered;
+    background-color: none;
     margin-top: 100px;
 }
 
@@ -184,6 +184,34 @@ body {
 
 .categoryBox h4:hover{
     color: #0095C4;
+}
+
+
+
+.instructionContainer{
+    background-color: rgb(0, 149, 196, 0.15);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.instructionContainer img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.instructionContainer p{
+    margin-left: 20px;
+    font-family: mySamsungSharpSans;
+    font-size: 0.8em;
+    color: #777777
 }
 
 /* Ended categories view CSS*/
