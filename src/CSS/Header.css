@@ -1,0 +1,118 @@
+a {
+    text-decoration: none;
+}
+
+.navContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #F8F8F8;
+}
+
+
+
+/* Starting CSS For NavSector1 */
+
+.navSector1 {
+    background-color: none;
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+
+}
+
+.LOGO {
+    color: #000000;
+}
+
+.navSector1 form {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.searchbox input {
+    width: 600px;
+    height: 35px;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color: #000000;
+    border-radius: 0.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.buttonContainer {
+    background-color: none;
+    display: inline-flex;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    justify-content: right;
+    margin-right: 90px;
+}
+
+.userButton {
+    background-color: none;
+    text-align: center;
+    margin: 25px;
+}
+
+.userButton a {
+    color: #000000;
+    font-weight: 600;
+}
+
+.cartButton {
+    background-color: none;
+    text-align: center;
+    margin: 25px;
+}
+
+.cartButton a {
+    color: #000000;
+    font-weight: 600;
+}
+
+/* Ended CSS For NavSector1 */
+
+
+
+
+/* Starting CSS For NavSector2 */
+
+.navSector2 {
+    background-color: none;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.navigationButtons {
+    background-color: none;
+    width: fit-content;
+    margin: auto;
+}
+
+.navButtons {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.5em;
+    width: 120px;
+    height: 30px;
+    background: none;
+}
+
+.navButtons:hover {
+    color: #0095C4;
+    background: fixed;
+    background-color: #E8E8E8;
+    cursor: pointer;
+}

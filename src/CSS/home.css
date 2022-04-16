@@ -1,0 +1,245 @@
+body {
+    background-color: #F8F8F8;
+}
+
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: mySamsungOne-700;
+    src: url(../Fonts/SamsungOne-700.ttf);
+}
+
+@font-face {
+    font-family: mySamsungOne-400;
+    src: url(../Fonts/SamsungOne-400.ttf);
+}
+
+.HomeContainer {
+    background-color: none;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 170px;
+}
+
+
+/* Starting First Look view CSS*/
+
+/* Starting Home Sector1 CSS */
+.homeSector1 {
+    background-color: none;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 30px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+.main_quotes {
+    background-color: none;
+    width: fit-content;
+    margin-top: 45px;
+    margin-left: 70px;
+}
+
+.homeMainText {
+    font-family: mySamsungSharpSans;
+    font-size: 4em;
+}
+
+.homeSector1 p {
+    font-weight: 600;
+    margin-top: -50px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+#homeSlider {
+    background-color: none;
+    width: 1000px;
+    height: 450px;
+    position: absolute;
+    right: 0;
+}
+
+#homeSlider img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.8em;
+}
+
+
+/* Ending Home Sector1 CSS */
+
+
+
+
+
+/* Starting Home user manual Steps CSS */
+.Steps{
+    display: inline-flex;
+    background-color: none;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.boxContainers{
+    margin-right: 50px;
+    background-color: #FFFFFF;
+    width: 275px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: solid;
+    border-width: 0.2em;
+    border-color: #02ACDF;
+    
+}
+
+#lastBox{
+    margin-right: -50px;
+}
+
+.boxImage{
+    display: flex;
+    justify-content: center;
+}
+
+.boxImage img{
+    width: 35px;
+    height: 35px;
+}
+
+.boxContainers h3{
+    font-weight: 500;
+    font-family: mySamsungSharpSans;
+    text-align: center;
+}
+
+.boxContainers p{
+    font-family: mySamsungOne-400;
+    font-size: 0.9rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Ending Home user manual Steps CSS */
+
+/* Ended First Look view CSS*/
+
+
+
+
+/* Starting categories view CSS*/
+#catContainer{
+    background-color: yelnonelow;
+    padding-top: 30px;
+}
+
+.categoriesContainer{
+    background-color: none;
+    margin-top: 100px;
+}
+
+.cateTitle{
+    background-color: none;
+}
+
+.cateTitle h3{
+    font-family: mySamsungSharpSans;
+}
+
+.categories{
+    background-color: none;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.categoryBox{
+    background-color: none;
+    width: 500px;
+    height: 260px;
+    margin: 30px 50px 0px 50px;
+    border-radius: 15px;
+}
+
+.categoryBox img{
+    width: 500px;
+    border-radius: 10px;
+}
+
+.categoryBox h4{
+    font-family: mySamsungSharpSans;
+    margin-top: 0px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.categoryBox h4:hover{
+    color: #0095C4;
+}
+
+
+
+.instructionContainer{
+    background-color: rgb(0, 149, 196, 0.15);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.instructionContainer img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.instructionContainer p{
+    margin-left: 20px;
+    font-family: mySamsungSharpSans;
+    font-size: 0.8em;
+    color: #777777
+}
+
+/* Ended categories view CSS*/
+
+
+
+
+
+/* Starting Services view CSS*/
+.servicesContainer{
+    background-color: none;
+    padding-top: 120px;
+}
+
+.service{
+    background-color: none;
+    margin-top: 30px;
+}
+
+.service h4{
+    font-family: mySamsungSharpSans;
+    margin-bottom: -10px;
+}
+
+.service p{
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+
+/* Ended Services view CSS*/
