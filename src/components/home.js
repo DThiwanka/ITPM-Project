@@ -139,7 +139,7 @@ function home() {
           <div className="categories">
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="cate">
                 <img src={medic_cat_img} />
                 <h4>Medicine</h4>
               </a>
