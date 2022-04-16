@@ -39,32 +39,16 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Project Name - Online Pharmacy System
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Batch - Weekend Batch 3.1
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Group Leader - `IT20126292 - Mr. Silva K.V  (IT20126292)`
 
-### Code Splitting
+### Member 2 - `IT20129576 - Mr. Jayarwardana J.K.M.D.T (DThiwanka)`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Member 3 - `IT20200206 - Mr. Pathirana M.P.C.D (IT19092898)`
 
-### Analyzing the Bundle Size
+### Member 4 - `IT20162382 - Mr. M.A.Y.P.W Bandara (yasirupanduka99)`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Technologies used - Frontend: HTML, CSS (Bootstrap), React (Framework)Backend: Node JS, Database: MongoDB/Firebase, Main Language: JavaScript

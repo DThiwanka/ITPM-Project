@@ -1,0 +1,46 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .anima{
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .row {
+    display: flex;
+    text-align: start;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    margin-left:10%
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+   align-items: center;
+}
+
+.hrdivider {
+  position: relative;
+  margin-bottom: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+.hrdivider span {
+  position: absolute;
+  top: -11px;
+  background: #fff;
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
