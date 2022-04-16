@@ -5,6 +5,7 @@ import React from 'react';
 import '../CSS/home.css';
 
 //import sample slider images
+// <<<<<<< IT20162382
 import slider1 from '../images/Slider_Images/markus-spiske-DnBtFBnqlRc-unsplash.jpg'
 import slider2 from '../images/Slider_Images/ibrahim-boran-zsKFQs2kDpM-unsplash.jpg'
 import slider3 from '../images/Slider_Images/towfiqu-barbhuiya-w8p9cQDLX7I-unsplash.jpg'
@@ -267,4 +268,4 @@ function home() {
   );
 }
 
-export default home
+export default Home
