@@ -2,6 +2,10 @@ body {
     background-color: #F8F8F8;
 }
 
+a{
+    text-decoration: none;
+}
+
 @font-face {
     font-family: mySamsungSharpSans;
     src: url(../Fonts/SamsungSharpSans-Bold.ttf);
