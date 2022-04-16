@@ -1,0 +1,75 @@
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: mySamsungOne-700;
+    src: url(../Fonts/SamsungOne-700.ttf);
+}
+
+@font-face {
+    font-family: mySamsungOne-400;
+    src: url(../Fonts/SamsungOne-400.ttf);
+}
+
+.footerContainer {
+    background-color: white;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+
+
+/* Starting Footer Content CSS */
+.FooterContent{
+    display: inline-flex;
+    width: 100%;
+}
+
+.footerBoxs {
+    background-color: none;
+    margin-right: 100px;
+    width: 290px;
+}
+
+#firstFooterBox {
+    margin-left: 50px;
+}
+
+.footerBoxs h3 {
+    font-family: mySamsungSharpSans;
+}
+
+.footerBoxs p{
+    font-family: mySamsungOne-700;
+}
+
+.socialmedia_imgs{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+
+.visacard_img{
+    width: 35px;
+    height: 35px;
+}
+
+.mastercard_img{
+    width: 50px;
+    height: 35px;
+}
+
+/* Ended Footer Content CSS */
+
+
+
+
+/* Starting Footer copyright CSS */
+.copyRight{
+    margin-top: 40px;
+    background-color: none;
+    text-align: center;
+}
+
+/* Ended Footer copyright CSS */
