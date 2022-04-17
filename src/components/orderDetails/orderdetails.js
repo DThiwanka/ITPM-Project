@@ -1,14 +1,43 @@
-import React from "react";
+import React, { useState } from 'react';
 import "./orderdetails.css";
 import SvgComponent from "./visa";
 import CodComponent from "./cod"
 
-function orderdetails() {
+function Orderdetails() {
+
+  const [fname, setFname] = useState();
+  const [email, setEmail] = useState();
+  const [tpnumber, setTpnumber] = useState();
+  const [address, setAddress] = useState();
+  const [city, setCity] = useState();
+  const [stpnumber, setStpnumber] = useState();
+  const [paymethod, setPaymethod] = useState();
+
+
+ function sendData(e){
+   e.preventDefault();
+
+   const newDetail = {
+
+    fname,
+    email,
+    tpnumber,
+    address,
+    city,
+    stpnumber,
+    paymethod
+
+   }
+
+   console.log(newDetail);
+
+ }
+
   return (
 
     <div>
-
-      <h1 className="ml-4 h4 mt-3 text-decoration-underline"><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Order Details</h1>
+       <form onSubmit={sendData}>
+      <h1 className="ml-4 h4 mt-3 text-decoration-underline"><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Order Details</h1>
       <div className="row mt-3">
         <div className="col-sm-7 ml-4">
           <div className="card shadow p-3 mb-5 bg-white rounded">
@@ -30,6 +59,7 @@ function orderdetails() {
                       id="form6Example3"
                       className="form-control"
                       placeholder="Janith Dilshan Perera"
+                      onChange={e => setFname(e.target.value)}
                     />
                   </div>
 
@@ -44,6 +74,8 @@ function orderdetails() {
                           id="form6Example1"
                           className="form-control"
                           placeholder="janith@profile.com"
+                          onChange={e => setEmail(e.target.value)}
+
                         />
                       </div>
                     </div>
@@ -53,10 +85,11 @@ function orderdetails() {
                           <b>Telephone</b>
                         </label>
                         <input
-                          type="text"
+                          type="tel"
                           id="form6Example2"
                           className="form-control"
                           placeholder="070-XXXXXXX"
+                          onChange={e => setTpnumber(e.target.value)}
                         />
                       </div>
                     </div>
@@ -91,20 +124,20 @@ function orderdetails() {
                   </p>
                 
               </div> */}
-            <table class="table table-hover table-borderless">
+            <table className="table table-hover table-borderless">
 
               <tbody>
-                <tr class="h5">
+                <tr className="h5">
                   <td >Sub Total</td>
-                  <td class="text-right">Rs. 2000.00</td>
+                  <td className="text-right">Rs. 2000.00</td>
                 </tr>
-                <tr class="text-warning">
+                <tr className="text-warning">
                   <td>Discout</td>
-                  <td class="text-right">Rs. 500.00</td>
+                  <td className="text-right">Rs. 500.00</td>
                 </tr>
-                <tr class="h5 text-success">
+                <tr className="h5 text-success">
                   <td >Total Price</td>
-                  <td class="text-right">Rs. 1500.00</td>
+                  <td className="text-right">Rs. 1500.00</td>
                 </tr>
               </tbody>
             </table>
@@ -132,6 +165,7 @@ function orderdetails() {
                     id="form6Example3"
                     className="form-control"
                     placeholder="No3, Kadahapola Gedara, Mathale"
+                    onChange={e => setAddress(e.target.value)}
                   />
                 </div>
 
@@ -142,11 +176,15 @@ function orderdetails() {
                         <b>City</b>
                       </label>
 
-                      <select id="demo_overview" class="form-control dropdown-toggle selectpicker show-tick" data-role="select-dropdown" data-live-search="true">
+                      <select id="demo_overview" className="form-control dropdown-toggle selectpicker show-tick" onChange={e => setCity(e.target.value)} data-role="select-dropdown" data-live-search="true">
                         <option >Badulla</option>
-                        <option Default>Bandarawela</option>
+                        <option default>Bandarawela</option>
                         <option>Kadawatha</option>
                         <option>Kurunagala</option>
+                        <option>Kandy</option>
+                        <option>Galle</option>
+                        <option>Jaffna</option>
+                        <option>Dambulla</option>
                       </select>
 
 
@@ -158,11 +196,14 @@ function orderdetails() {
                         <b>Secondary Phone</b>
                       </label>
                       <input
-                        type="number"
+                        type="tel"
                         id="form6Example2"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                         className="form-control"
                         placeholder="070-XXXXXXX"
+                        onChange={e => setStpnumber(e.target.value)}
                       />
+                      <span className="validity"></span>
                     </div>
                   </div>
                 </div>
@@ -186,13 +227,13 @@ function orderdetails() {
             Payment Methods
           </div>
           <div className="card-body ml-2">
-            <div class="form-check">
+            <div className="form-check">
 
-              <div class="tg-wrap"><table>
+              <div className="tg-wrap"><table>
 
-                <div class="form-check">
+                <div className="form-check">
                   <tr>
-                    <td><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
+                    <td><input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"  onChange={e => setPaymethod(e.target.value)} checked /></td>
                     <td>
 
                       <CodComponent
@@ -204,42 +245,46 @@ function orderdetails() {
                       {/* <img src="../../images/cod.png" style={{width: '55%', height: '50%'}}></img> */}
 
                     </td>
-                    <td><label class="form-check-label" for="flexRadioDefault2">
+                    <td><option className="form-check-label" htmlFor="flexRadioDefault2" value="CashOnDelivery">
                       Cash on Delivery
-                    </label></td>
+                    </option></td>
                   </tr>
 
                   <tr>
-                    <td><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
+                    <td><input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
                     <td><SvgComponent
                       height={50}
                       width={50}
                       className="ml-3 mr-3 mb-1"
 
                     /></td>
-                    <td><label class="form-check-label" for="flexRadioDefault2">
+                    <td><option className="form-check-label" htmlFor="flexRadioDefault2" value="VisaMaster">
 
                       Pay by Visa Master Credit/Debit Card
-                    </label></td>
+                    </option></td>
                   </tr>
                 </div>
               </table></div>
             </div>
 
 
-
+            
 
           </div>
 
-
+         
         </div>
+       
       </div>
       <div className="col-sm-7 ml-4">
-        <div class="alert alert-success" role="alert">
-        <i class="fa fa-cloud" aria-hidden="false"></i> 
+        <div className="alert alert-success" role="alert">
+        <i className="fa fa-cloud" aria-hidden="false"></i> 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacinia lorem, nec elementum lectus. Integer in tortor in magna posuere dictum. Phasellus consectetur nibh justo, maximus rhoncus ipsum gravida in. In malesuada orci odio, quis congue neque facilisis vitae. Aenean tempus convallis nibh.
         </div>
+        <button type="submit" className="btn btn-primary d-block mr-0 ml-auto mb-3">SUBMIT</button>
       </div>
+      
+      </form>
     </div>
 
 
@@ -248,4 +293,4 @@ function orderdetails() {
   );
 }
 
-export default orderdetails;
+export default Orderdetails;
