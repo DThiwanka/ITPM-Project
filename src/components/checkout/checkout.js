@@ -28,12 +28,18 @@ function App() {
 
   //  console.log(newVisa);
 
-  axios.post('http://localhost:8090/visa/add',newVisa).then(()=>{
-    alert("Visa Card Checked");
-    console.log(newVisa);
-  }).catch((err)=>{
-    alert(err)
-  })
+   axios.post('http://localhost:8090/visa/add', newVisa).then(() => {
+     alert("Visa Card Checked");
+     console.log(newVisa); 
+     this.setState({
+       name: [{}],
+       cardNumber: [{}],
+       cvvNumber: [{}],
+       expDate: [{}]
+     })
+   }).catch((err) => {
+     alert(err)
+   })
 
  }
 

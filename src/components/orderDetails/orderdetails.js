@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import "./orderdetails.css";
 import SvgComponent from "./visa";
 import CodComponent from "./cod"
+import axios from "axios";
 
 function Orderdetails() {
 
@@ -29,7 +30,14 @@ function Orderdetails() {
 
    }
 
-   console.log(newDetail);
+  //  console.log(newDetail);
+  
+  axios.post('http://localhost:8090/details/add',newDetail).then(()=>{
+    alert("Details Added Successfully 🚀");
+    console.log(newDetail);
+  }).catch((err)=>{
+    alert(err)
+  })
 
  }
 
