@@ -10,6 +10,7 @@ import login from './components/login/login'
 import register from './components/register/register'
 import cart from './components/shopping-cart/shoppingCart'
 import testcomponent from './components/testcomponent/test'
+import medicine_cat from './components/category/medicine'
 import Navigation from './components/navigation/nav'
 
 export default class App extends Component {
@@ -20,6 +21,7 @@ export default class App extends Component {
       <Header/>
  
      <Route path="/" exact component={home} key={App.home}></Route>
+     <Route path="/medicine" exact component={medicine_cat} key={App.medicine_cat}></Route>
      <Route path="/check" exact component={check} key={App.check}></Route>
      <switch>
      <Route path="/placed" exact component={placed} key={App.placed}></Route>
