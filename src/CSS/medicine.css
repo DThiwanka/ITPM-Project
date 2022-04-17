@@ -1,0 +1,140 @@
+
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+.medicine_container {
+    background-color: none;
+    margin-top: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+/* Starting CSS for Filter */
+
+.filter{
+    background-color: #E2E2E2;
+    width: 230px;
+    height: 420px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.subcategory_filter{
+    background-color: none;
+    width: max-content;  
+    margin-left: 30px;
+}
+
+.subcategory_filter h5{
+    font-family: mySamsungSharpSans;
+}
+
+.radioLabel {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.radioLabel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+.Ratings_filter{
+    background-color: none;
+    width: max-content;  
+    margin-left: 30px;
+}
+
+.Ratings_filter h5{
+    font-family: mySamsungSharpSans;
+}
+
+
+/* Ended CSS for Filter */
+
+
+
+
+
+
+
+
+/* Starting CSS for Item Side */
+.itemsContainer{
+    background-color: none;
+    width: 1540px;
+    margin-left: 263px;
+}
+
+.categoryTitle{
+    background-color: none;
+}
+
+.categoryTitle h3{
+    font-family: mySamsungSharpSans;
+    margin-top: 0px;
+}
+
+.items{
+    background-color: #E2E2E2;
+    border-radius: 10px;
+}
+
+.itemBox{
+    background-color: white;
+    width: 180px;
+    height: 300px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.itemBox img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+.itemBox h5{
+    font-family: mySamsungSharpSans;
+    margin: 0px 0px 0px 10px;
+}
+
+.itemBox p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+    margin: 0px 0px 0px 10px;
+}
+
+.itemBox button{
+    margin: 15px 0px 0px 10px;
+    border: none;
+    background-color: rgb(38, 165, 1, 0.71);
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.itemBox button:hover{
+    background-color: rgba(30, 122, 2, 0.71);
+    cursor: pointer;
+}
+
+/* Ended CSS for Item Side */

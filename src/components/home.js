@@ -147,35 +147,35 @@ function home() {
             </div>
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="/baby_items">
                 <img src={babyItems_cat_img} />
                 <h4>Baby Items</h4>
               </a>
             </div>
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="/beauty">
                 <img src={beauty_cat_img} />
                 <h4>Beauty</h4>
               </a>
             </div>
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="/localMedicine">
                 <img src={localMedic_cat_img} />
                 <h4>Local Medicine</h4>
               </a>
             </div>
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="/medical_equipments">
                 <img src={equipments_cat_img} />
                 <h4>Medical Equipments</h4>
               </a>
             </div>
 
             <div className="categoryBox">
-              <a href="#">
+              <a href="/fitness_supplements">
                 <img src={fitness_cat_img} />
                 <h4>Fitness & Supplements</h4>
               </a>
@@ -268,4 +268,4 @@ function home() {
   );
 }
 
-export default Home
+export default home

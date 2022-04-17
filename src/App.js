@@ -10,7 +10,14 @@ import login from './components/login/login'
 import register from './components/register/register'
 import cart from './components/shopping-cart/shoppingCart'
 import testcomponent from './components/testcomponent/test'
+
 import medicine_cat from './components/category/medicine'
+import beabyItems_cat from './components/category/babyItems'
+import beauty_cat from './components/category/beauty'
+import localMedic_cat from './components/category/localMedi'
+import medicalEqui_cat from './components/category/medicalEquipments'
+import fitness_cat from './components/category/fitnessAndSupplements'
+
 import Navigation from './components/navigation/nav'
 
 export default class App extends Component {
@@ -22,6 +29,11 @@ export default class App extends Component {
  
      <Route path="/" exact component={home} key={App.home}></Route>
      <Route path="/medicine" exact component={medicine_cat} key={App.medicine_cat}></Route>
+     <Route path="/baby_items" exact component={beabyItems_cat} key={App.beabyItems_cat}></Route>
+     <Route path="/beauty" exact component={beauty_cat} key={App.beauty_cat}></Route>
+     <Route path="/localMedicine" exact component={localMedic_cat} key={App.localMedic_cat}></Route>
+     <Route path="/medical_equipments" exact component={medicalEqui_cat} key={App.medicalEqui_cat}></Route>
+     <Route path="/fitness_supplements" exact component={fitness_cat} key={App.fitness_cat}></Route>
      <Route path="/check" exact component={check} key={App.check}></Route>
      <switch>
      <Route path="/placed" exact component={placed} key={App.placed}></Route>
