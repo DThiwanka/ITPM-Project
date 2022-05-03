@@ -32,10 +32,14 @@ function App() {
      alert("Visa Card Checked");
      console.log(newVisa); 
      this.setState({
-       name: [{}],
-       cardNumber: [{}],
-       cvvNumber: [{}],
-       expDate: [{}]
+  
+      //  name : "",
+      //  cardNumber : "",
+      //  cvvNumber : "",
+      //  expDate : ""
+
+      
+
      })
    }).catch((err) => {
      alert(err)
@@ -83,11 +87,11 @@ function App() {
               Name<br />
               <TextField id="name" label="Name" variant="outlined" placeholder="Juliana Anderson" value={name} onChange={e => setName(e.target.value)} multiline style={{ width: '65%' }} /><br />
               Card Number<br />
-              <TextField id="cardnumber" label="Card Number" variant="outlined" placeholder="112 3265 2345 6854" onChange={e => setCardnumber(e.target.value)} multiline style={{ width: '65%' }} /><br />
+              <TextField id="cardNumber" label="Card Number" variant="outlined" placeholder="112 3265 2345 6854" onChange={e => setCardnumber(e.target.value)} multiline style={{ width: '65%' }} /><br />
               CVV Number<br />
-              <TextField inputProps={{ maxLength: 3 }} id="cvv" label="CVV number" onChange={e => setCvvNumber(e.target.value)} variant="outlined" placeholder="112" multiline style={{ width: '65%' }} /><br />
+              <TextField inputProps={{ maxLength: 3 }} id="cvvNumber" label="CVV number" onChange={e => setCvvNumber(e.target.value)} variant="outlined" placeholder="112" multiline style={{ width: '65%' }} /><br />
               Expiry Date<br />
-              <TextField type="month" id="expiry" label="Expiry Date" onChange={e => setExpDate(e.target.value)} variant="outlined" style={{ width: '65%' }} /><br />
+              <TextField type="month" id="expDate" label="Expiry Date" onChange={e => setExpDate(e.target.value)} variant="outlined" style={{ width: '65%' }} /><br />
               <button type="submit" className="btn btn-primary">SUBMIT</button>
               </form>
             </Box>
