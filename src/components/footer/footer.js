@@ -1,64 +1,68 @@
-import React, { Component } from 'react';
+import React from "react";
+import '../../CSS/Footer.css'
 
-class Footer extends Component {
-    render() {
+//Import Footer Icons
+import visa_ico from '../../Icons/Footer_Icons/visa.png'
+import master_ico from '../../Icons/Footer_Icons/mc_symbol_opt_73_3x.png'
+import facebook_ico from '../../Icons/Footer_Icons/Social_Media_Icons/facebook.png'
+import instagram_ico from '../../Icons/Footer_Icons/Social_Media_Icons/instagram.png'
+import linkedin_ico from '../../Icons/Footer_Icons/Social_Media_Icons/linkedin.png'
+import twitter_ico from '../../Icons/Footer_Icons/Social_Media_Icons/twitter.png'
 
-        return (
-          <footer className="text-center text-light bg-dark flex-end">
-              <div className="container py-5">
-            <div className="row gy-5 gx-7">
-                <div className="col-lg-4 col-md-6">
-                    <h5 className="h5 text-white">Contact Details</h5>
-                    <p className="small text-muted">+947X - XXXXXXX</p>
-                    <p className="small text-muted">+947X - XXXXXXX</p>
-                    <p className="small text-muted">citymedic@gamil.com</p>
-                </div>
-                <div className="col-lg-2 col-md-6">
-                    <h5 className="text-white mb-3">Address</h5>
-                    <ul className="list-unstyled text-muted">
-                    <p className="small text-muted">No 10,</p>
-                    <p className="small text-muted">Jesmine Road</p>
-                    <p className="small text-muted">Kande Waththa</p>
-                    <p className="small text-muted">Mahanuwara</p>
-                    </ul>
-                </div>
-                <div className="col-lg-2 col-md-4">
-                    <h5 className="text-white mb-3">Other Services</h5>
-                    <ul className="list-unstyled text-muted">
-                    <p className="small text-muted">Delight Resturant</p>
-                    <p className="small text-muted">JK Travellings</p>
-                    </ul>
+const footer = () => {
+    return (
+        <div className="footerContainer">
+
+            {/* Footer Content */}
+            <div className="FooterContent">
+                <div id="firstFooterBox" className="footerBoxs">
+                    <h3><u>Contact Details</u></h3>
+                    <p>+947X - XXXXXXX</p>
+                    <p>+947X - XXXXXXX</p>
+                    <p>citymedic@gmail.com</p>
                 </div>
 
-                <div className="col-lg-2 col-md-4">
-                    <h5 className="text-white mb-3">Sponsors</h5>
-                    <ul className="list-unstyled text-muted">
-                    <p className="small text-muted">Johnson's Baby Soap</p>
-                    <p className="small text-muted">Signal</p>
-                    <p className="small text-muted">Visa Master Cards</p>
-                    </ul>
+                <div className="footerBoxs">
+                    <h3><u>Address</u></h3>
+                    <p>
+                        No 10, <br />
+                        Jesmin Road, <br />
+                        Kande Waththa, <br />
+                        Mahanuwara
+                    </p>
                 </div>
 
-                {/* <div className="col-lg-4 col-md-4">
-                    <h5 className="text-white mb-3">Newsletter</h5>
-                    <p className="small text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
-                    <form action="#">
-                        <div className="input-group mb-3">
-                            <input className="form-control" type="text" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                            <button className="btn btn-primary" id="button-addon2" type="button"><i className="fas fa-paper-plane"></i></button>
-                        </div>
-                    </form>
-                </div> */}
+                <div className="footerBoxs">
+                    <h3><u>Other Services</u></h3>
+                    <p>Delight 8 Resturant</p>
+                    <p>JK Travellings</p>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Sponsers</u></h3>
+                    <a href="https://www.johnsonsbaby.com/" target="_blank"><p>Johnson's Baby Soap</p></a>
+                    <a href="https://www.signal.lk/toothpaste.html" target="_blank"><p>Signal</p></a>
+                    <p>VISA & MASTER Cards</p>
+                    <a href="https://www.visa.com.lk/" target="_blank"><img className="visacard_img" src={visa_ico} /></a> <a href="https://www.mastercard.us/en-us.html" target="_blank"><img className="mastercard_img" src={master_ico} /></a>
+                </div>
+
+                <div className="footerBoxs">
+                    <h3><u>Follow Us</u></h3>
+                    <a href="https://www.linkedin.com/" target="_blank"><img className="socialmedia_imgs" src={linkedin_ico} /></a> <a href="https://twitter.com/?lang=en" target="_blank"><img className="socialmedia_imgs" src={twitter_ico} /></a> <a href="https://www.facebook.com/" target="_blank"><img className="socialmedia_imgs" src={facebook_ico} /></a> <a href="https://www.instagram.com/" target="_blank"><img className="socialmedia_imgs" src={instagram_ico} /></a>
+                </div>
             </div>
-          <div className="text-center text-light pt-1 pb-5">
-            © 2022 Copyright @TeamRealm
-            <a className="text-light" href="https:/TeamRealm.com/">
-              <br/>All Right Reserved</a>
-          </div>
-          </div>
-        </footer>
-        );
-    }
-}
 
-export default Footer;
+            <div className="copyRight">
+                <h4>
+                    Copyright &copy;Team_Realm <br />
+                    AllRight Reserved
+                </h4>
+            </div>
+
+
+        </div>
+    )
+
+};
+
+export default footer;
