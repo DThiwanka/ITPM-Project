@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Online Pharmacy System (MERN eCommerce App)",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,15 +20,17 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
-    "concurrently": "^7.0.0",
-    "dotenv": "^16.0.0",
-    "express": "^4.17.3",
-    "express-async-handler": "^1.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^6.2.8",
+    "mongoose": "^5.10.6",
     "morgan": "^1.10.0",
-    "multer": "^1.4.4",
-    "nodemon": "^2.0.15",
+    "multer": "^1.4.2",
     "react-bootstrap": "^2.2.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
   }
 }
