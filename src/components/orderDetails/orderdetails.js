@@ -3,6 +3,7 @@ import "./orderdetails.css";
 import SvgComponent from "./visa";
 import CodComponent from "./cod"
 import axios from "axios";
+import validator from 'validator'
 
 function Orderdetails() {
 
@@ -13,6 +14,18 @@ function Orderdetails() {
   const [city, setCity] = useState();
   const [stpnumber, setStpnumber] = useState();
   const [paymethod, setPaymethod] = useState();
+
+  const [emailError, setEmailError] = useState('')
+  const validateEmail = (e) => {
+    var email = e.target.value
+   
+    if (validator.isEmail(email)) {
+      setEmailError('')
+      setEmail(email)
+    } else {
+      setEmailError('Please enter valid email')
+    }
+  }
 
 
  function sendData(e){
@@ -30,20 +43,23 @@ function Orderdetails() {
 
    }
 
+   
+
   //  console.log(newDetail);
   
   axios.post('http://localhost:8090/details/add',newDetail).then(()=>{
     alert("Details Added Successfully 🚀");
     console.log(newDetail);
   }).catch((err)=>{
-    alert(err)
+    alert(err);
+    console.log("err");
   })
 
  }
 
   return (
 
-    <div>
+    <div >
        <form onSubmit={sendData}>
       <h1 className="ml-4 h4 mt-3 text-decoration-underline"><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Order Details</h1>
       <div className="row mt-3">
@@ -73,18 +89,41 @@ function Orderdetails() {
 
                   <div className="row mb-4">
                     <div className="col">
+                    {/* <pre>
+        <h2>How to Validate an Email Address in  ReactJS</h2>
+        <span>Enter Email: </span><input type="text" id="userEmail"
+        onChange={(e) => validateEmail(e)}></input> <br /><br /><br />
+        <h3 style={{
+          fontWeight: 'bold',
+          color: 'red',
+        }}>{emailError}</h3>
+      </pre> */}
+
+      
                       <div className="form-outline">
                         <label className="form-label" htmlFor="form6Example1">
                           <b>Email</b>
                         </label>
-                        <input
+                        {/* <input
                           type="email"
+                          required 
+                          class="form-control"
                           id="form6Example1"
                           className="form-control"
                           placeholder="janith@profile.com"
                           onChange={e => setEmail(e.target.value)}
 
-                        />
+                        /> */}
+                        <input type="text"  class="form-control"
+                          id="form6Example1"
+                          className="form-control"
+                          placeholder="janith@profile.com"
+        onChange={(e) => validateEmail(e)}/>
+        <span style={{
+        
+          color: 'red',
+          fontSize : '11px'
+        }}>{emailError}</span>
                       </div>
                     </div>
                     <div className="col">
@@ -287,7 +326,7 @@ function Orderdetails() {
       <div className="col-sm-7 ml-4">
         <div className="alert alert-success" role="alert">
         <i className="fa fa-cloud" aria-hidden="false"></i> 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacinia lorem, nec elementum lectus. Integer in tortor in magna posuere dictum. Phasellus consectetur nibh justo, maximus rhoncus ipsum gravida in. In malesuada orci odio, quis congue neque facilisis vitae. Aenean tempus convallis nibh.
+        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law of (Address).
         </div>
         <button type="submit" className="btn btn-primary d-block mr-0 ml-auto mb-3">SUBMIT</button>
       </div>
