@@ -50,6 +50,7 @@ function Orderdetails() {
   axios.post('http://localhost:8090/details/add',newDetail).then(()=>{
     alert("Details Added Successfully 🚀");
     console.log(newDetail);
+    window.location.reload();
   }).catch((err)=>{
     alert(err);
     console.log("err");
