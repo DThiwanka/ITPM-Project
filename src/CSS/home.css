@@ -1,11 +1,7 @@
 body {
-
    width: 100%;
    position: absolute;
    overflow-x: hidden;
-
-
-    background-color: #F8F8F8;
 
 }
 
@@ -53,11 +49,7 @@ a{
     background-color: none;
     width: fit-content;
     margin-top: 45px;
-
     margin-left: 50px;
-
-    margin-left: 70px;
-
 }
 
 .homeMainText {
@@ -74,13 +66,8 @@ a{
 
 #homeSlider {
     background-color: none;
-
     width: 700px;
     height: 500px;
-
-    width: 1000px;
-    height: 450px;
-
     position: absolute;
     right: 0;
 }
