@@ -18,7 +18,6 @@ export default class App extends Component {
     <BrowserRouter key={App.BrowserRouter}>
       
       <Header/>
-      <Navigation/>
  
      <Route path="/" exact component={home} key={App.home}></Route>
      <Route path="/check" exact component={check} key={App.check}></Route>

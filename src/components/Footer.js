@@ -1,15 +1,15 @@
 import React from "react";
-import '../../CSS/Footer.css'
+import '../CSS/Footer.css'
 
 //Import Footer Icons
-import visa_ico from '../../Icons/Footer_Icons/visa.png'
-import master_ico from '../../Icons/Footer_Icons/mc_symbol_opt_73_3x.png'
-import facebook_ico from '../../Icons/Footer_Icons/Social_Media_Icons/facebook.png'
-import instagram_ico from '../../Icons/Footer_Icons/Social_Media_Icons/instagram.png'
-import linkedin_ico from '../../Icons/Footer_Icons/Social_Media_Icons/linkedin.png'
-import twitter_ico from '../../Icons/Footer_Icons/Social_Media_Icons/twitter.png'
+import visa_ico from '../Icons/Footer_Icons/visa.png'
+import master_ico from '../Icons/Footer_Icons/mc_symbol_opt_73_3x.png'
+import facebook_ico from '../Icons/Footer_Icons/Social_Media_Icons/facebook.png'
+import instagram_ico from '../Icons/Footer_Icons/Social_Media_Icons/instagram.png'
+import linkedin_ico from '../Icons/Footer_Icons/Social_Media_Icons/linkedin.png'
+import twitter_ico from '../Icons/Footer_Icons/Social_Media_Icons/twitter.png'
 
-const footer = () => {
+const Footer = () => {
     return (
         <div className="footerContainer">
 
@@ -65,4 +65,4 @@ const footer = () => {
 
 };
 
-export default footer;
+export default Footer;
