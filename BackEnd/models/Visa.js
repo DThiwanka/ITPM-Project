@@ -3,8 +3,8 @@ const Schema = mongoose.Schema;
 
 const visaSchema = new Schema({
     name : { type : String, required : true },
-    cardNumber : { type : Number, required : true },
-    cvvNumber : { type : Number, required : true },
+    cardNumber : { type : String, required : true },
+    cvvNumber : { type : String, required : true },
     expDate : { type : String, required : true },
 })
 
