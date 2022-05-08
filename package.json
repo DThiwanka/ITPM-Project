@@ -1,42 +1,26 @@
 {
-  "name": "itpm-project",
+  "name": "online-pharmacy-shopping-cart",
   "version": "1.0.0",
-  "description": "Online Pharmacy System (MERN eCommerce App)",
+  "description": "Shopping cart for online pharmacy system with MERN & redux",
   "main": "server.js",
-  "type": "module",
   "scripts": {
-    "start": "node BackEnd/server",
-    "server": "nodemon BackEnd/server",
+    "start": "node BackEnd/server.js",
+    "server": "nodemon BackEnd/server.js",
     "client": "npm start --prefix FrontEnd",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "data:import": "node BackEnd/seeder",
-    "data:destroy": "node BackEnd/seeder -d",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix FrontEnd && npm run build --prefix FrontEnd"
+    "import": "node BackEnd/seederScript.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DThiwanka/ITPM-Project.git"
-  },
-  "author": "IT20126292",
+  "author": "kavisha silva",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DThiwanka/ITPM-Project/issues"
-  },
-  "homepage": "https://github.com/DThiwanka/ITPM-Project#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "colors": "^1.4.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-async-handler": "^1.1.4",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.6",
-    "morgan": "^1.10.0",
-    "multer": "^1.4.2",
-    "react-bootstrap": "^2.2.3"
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.4"
+    "concurrently": "^7.1.0",
+    "nodemon": "^2.0.15"
   }
 }

@@ -1,64 +1,48 @@
-import React from 'react'
-// import { Link } from 'react-router-dom'
-// import { useDispatch, useSelector } from 'react-redux'
-import { Row, Col } from 'react-bootstrap'
-import Product from '../components/product/Product'
-import products from '../products'
-// import Message from '../components/Message'
-// import Loader from '../components/Loader'
-// import Paginate from '../components/Paginate'
-// import ProductCarousel from '../components/ProductCarousel'
-// import Meta from '../components/Meta'
-// import { listProducts } from '../actions/productActions'
+import "./HomeScreen.css";
+import { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
 
-const HomeScreen = () => {
-  // const keyword = match.params.keyword
+//Components
+import Product from "../components/shopping-cart/Product";
 
-  // const pageNumber = match.params.pageNumber || 1
+//Actions
+import { getProducts as listProducts } from "../redux/actions/productActions";
 
-  // const dispatch = useDispatch()
+function HomeScreen() {
 
-  // const productList = useSelector((state) => state.productList)
-  // const { loading, error, products, page, pages } = productList
+  const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   dispatch(listProducts(keyword, pageNumber))
-  // }, [dispatch, keyword, pageNumber])
+  const getProducts = useSelector(state => state.getProducts);
+  const { products, loading, error} = getProducts;
+
+  useEffect(() => {
+    dispatch(listProducts());
+  }, [dispatch]);
 
   return (
-    <>
-      {/* <Meta />
-      {!keyword ? (
-        <ProductCarousel />
-      ) : (
-        <Link to='/' className='btn btn-light'>
-          Go Back
-        </Link>
-      )}
-      <h1>Latest Products</h1>
+    <div className="homescreen">
+      <h2 className="homescreen__title">Latest Products</h2>
+
+      <div className="homescreen__products">
       {loading ? (
-        <Loader />
-      ) : error ? (
-        <Message variant='danger'>{error}</Message>
-      ) : ( */}
-        <>
-          <h1>Latest Products</h1>
-          <Row>
-            {products.map((product) => (
-              <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
-                <Product product={product} />
-              </Col>
-            ))}
-          </Row>
-          {/* <Paginate
-            pages={pages}
-            page={page}
-            keyword={keyword ? keyword : ''}
-          /> */}
-        </>
-      {/* )} */}
-    </>
-  )
+          <h2>Loading...</h2>
+        ) : error ? (
+          <h2>{error}</h2>
+        ) : (
+          products.map((product) => (
+            <Product
+              key={product._id}
+              productName={product.productName}
+              productDescription={product.productDescription}
+              productPrice={product.productPrice}
+              imageUrl={product.imageUrl}
+              productId={product._id}
+            />
+          ))
+        )}
+      </div>
+    </div>
+  );
 }
 
-export default HomeScreen
+export default HomeScreen;
