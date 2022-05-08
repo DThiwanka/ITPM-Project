@@ -115,7 +115,8 @@ function Orderdetails() {
                           onChange={e => setEmail(e.target.value)}
 
                         /> */}
-                        <input type="email"  class="form-control"
+
+                        <input type="text"  class="form-control"
                           id="form6Example1"
                           className="form-control"
                           placeholder="janith@profile.com"
