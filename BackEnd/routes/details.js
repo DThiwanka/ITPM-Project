@@ -38,5 +38,24 @@ router.route("/all/").get((req, res) => {
     })
 })
 
+//get Specific detail
+
+router.get('/:id',(req, res)=>{
+
+    let detailId = req.params.id;
+
+    Detail.findById(detailId,(err,details)=>{
+        if(err){
+            return res.status(400).json({success:false,err});
+        }
+
+        return res.status(200).json({
+        success:true,
+        details
+        });
+    });
+
+});
+
 
 module.exports = router;
