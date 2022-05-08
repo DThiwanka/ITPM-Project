@@ -1,0 +1,42 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  .anima{
+   position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .row {
+    display: flex;
+    text-align: start;
+  }
+  
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    margin-left:10%
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: left;
+   align-items: center;
+}
+
+.hrdivider {
+  position: relative;
+  text-align: center;
+}
+
+.hrdivider span {
+ 
+  font-size: 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}

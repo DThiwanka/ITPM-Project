@@ -1,0 +1,136 @@
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+.mainContainer{
+    background-color: none;
+    width: max-content;
+    margin-top: 213px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.loginTitleContainer{
+    background-color: none;
+    width: 275px;
+}
+
+.mainHead{
+    line-height: 0.5em;
+}
+
+.mainHead h1{
+    font-family: mySamsungSharpSans;
+    font-size: 1.8em;
+}
+
+.mainHead p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.8em;
+}
+
+.loginform{
+    background-color: none;
+}
+
+.loginform label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.imageChooser{
+    border: none;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.inputField{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #B8B8B8;
+    border-width: 0.2em;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.checkBox{
+    width: 15px;
+    height: 15px;
+}
+
+.loginBtnContainer{
+    background-color: none;
+    width: max-content;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.loginBtnContainer button{
+    width: 80px;
+    height: 28px;
+    margin-top: 20px;
+    background-color: #02ACDF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.loginBtnContainer button:hover{
+    background-color: #018eb9;
+    box-shadow: 2px 5px 5px rgb(177, 177, 177);
+    cursor: pointer;
+}
+
+.updateBtnContainer {
+    background-color: none;
+    width: max-content;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.updateBtnContainer button {
+    width: 80px;
+    height: 28px;
+    margin-top: 20px;
+    background-color: #ebc802;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.updateBtnContainer button:hover {
+    background-color: #ceaf00;
+    box-shadow: 2px 5px 5px rgb(177, 177, 177);
+    cursor: pointer;
+}
+
+.newCusPartContainer p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+#backBtn button{
+    width: 80px;
+    height: 25px;
+    background-color: #222222;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+#backBtn button:hover{
+    background-color: #d3d3d3;
+    box-shadow: 2px 5px 5px rgb(177, 177, 177);
+    cursor: pointer;
+    color: #000000;
+}

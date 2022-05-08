@@ -1,0 +1,16 @@
+.alertContainer {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 20px;
+}
+
+.alertSuccessContainer{
+    padding: 20px;
+    background-color: rgba(1, 168, 1, 0.575);
+    color: white;
+    border-radius: 5px;
+    font-family: 'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;
+}

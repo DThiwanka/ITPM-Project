@@ -1,0 +1,120 @@
+body{
+    background-color: #f1f1f1;
+}
+.stockHandling_container{
+    background-color: none;
+    width: 1600px;
+    margin-left: 250px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.headTitle h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3em;
+}
+
+.controllerBar{
+    background-color: yellow;
+    width: 1600px;
+}
+
+.controllerBar_set{
+    background-color: none;
+    width: max-content;
+    position: absolute;
+    right: 0px;
+}
+
+.adminStockFilter{
+    display: inline-block;
+}
+
+.adminStockFilter select{
+    height: 35px;
+    border: solid;
+    border-width: 0.2em;
+    border-color: #707070;
+    border-radius: 5px;
+}
+
+.stocksearch{
+    display: inline-block;
+}
+
+.stocksearch form {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.searchbox input {
+    width: 615px;
+    height: 35px;
+    border-style: solid;
+    border-width: 0.2em;
+    border-color: #707070;
+    border-radius: 0.5em;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+
+.stockButtonContainer{
+    display: inline-block;
+    margin-left: 600px;
+}
+
+.pdfBtn{
+    border: solid;
+    border-width: 0.2em;
+    border-color: #707070;
+    border-radius: 5px;
+    width: 50px;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 20px;
+
+}
+
+.pdfBtn:hover{
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+.addItemsBtn{
+    border: solid;
+    border-width: 0.2em;
+    border-color: #707070;
+    border-radius: 5px;
+    width: 100px;
+    height: 38px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.addItemsBtn:hover{
+    background-color: rgb(175, 175, 175);
+    cursor: pointer;
+}
+
+.stockTableContainer{
+    background-color: none;
+    margin-top: 150px;
+}
+
+.stockTable{
+    width: 100%;
+}
+
+.table, th, td{
+    border: solid;
+    border-width: 3px;
+    border-color: #f1f1f1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.stockTable tr{
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 45px;
+}

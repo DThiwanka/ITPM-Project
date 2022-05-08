@@ -1,0 +1,8 @@
+input[type='radio']{
+    width: 20px;
+    height: 20px;
+}
+
+input:invalid{
+    border-color:brown;
+}

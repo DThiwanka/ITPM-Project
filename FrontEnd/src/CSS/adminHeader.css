@@ -1,0 +1,46 @@
+a{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: mySamsungSharpSans;
+    src: url(../Fonts/SamsungSharpSans-Bold.ttf);
+}
+
+.managerNavigationBar{
+    background-color: yellow;
+    width: 80px;
+    position: fixed;
+    height: 100%;
+    top: 0;
+}
+
+.adminNavButtons{
+    background-color: #818181;
+    width: 80px;
+    height: 100%;
+    margin: 0px;
+    padding-top: 200px;
+}
+
+.navTable{
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgDiv{
+    background-color: none;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.navTable p{
+    color: white;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 0.7em;
+    text-align: center;
+}
