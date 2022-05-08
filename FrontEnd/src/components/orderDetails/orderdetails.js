@@ -50,6 +50,7 @@ function Orderdetails() {
   axios.post('http://localhost:8090/details/add',newDetail).then(()=>{
     alert("Details Added Successfully 🚀");
     console.log(newDetail);
+    window.location.reload();
   }).catch((err)=>{
     alert(err);
     console.log("err");
@@ -114,6 +115,7 @@ function Orderdetails() {
                           onChange={e => setEmail(e.target.value)}
 
                         /> */}
+
                         <input type="text"  class="form-control"
                           id="form6Example1"
                           className="form-control"
