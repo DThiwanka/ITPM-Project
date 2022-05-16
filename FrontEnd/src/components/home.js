@@ -21,12 +21,12 @@ import verify_black_ico from '../Icons/Category_instruction_Icons/verified.png'
 
 //import category images
 
-import medic_cat_img from '../images/Category_Images/medicine.png'
-import babyItems_cat_img from '../images/Category_Images/baby_items.png'
-import beauty_cat_img from '../images/Category_Images/beauty.png'
-import localMedic_cat_img from '../images/Category_Images/local_medicine.png'
-import equipments_cat_img from '../images/Category_Images/medical_equipments.png'
-import fitness_cat_img from '../images/Category_Images/fitness_and_supplements.png'
+import medic_cat_img from '../Images/Category_Images/medicine.png'
+import babyItems_cat_img from '../Images/Category_Images/baby_items.png'
+import beauty_cat_img from '../Images/Category_Images/beauty.png'
+import localMedic_cat_img from '../Images/Category_Images/local_medicine.png'
+import equipments_cat_img from '../Images/Category_Images/medical_equipments.png'
+import fitness_cat_img from '../Images/Category_Images/fitness_and_supplements.png'
 
 
 function home() {

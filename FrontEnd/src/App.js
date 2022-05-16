@@ -10,6 +10,7 @@ import login from './components/login/login'
 import register from './components/register/register'
 import cart from './components/shopping-cart/shoppingCart'
 import retrivealldetails from './components/retrivealldetails/retrivealldetails'
+import admin from './components/admin/admin'
 
 import Navigation from './components/navigation/nav'
 
@@ -31,6 +32,7 @@ export default class App extends Component {
      <Route path="/register" exact component={register} key={App.register}></Route>
      <Route path="/admin/details" exact component={retrivealldetails} key={App.retrivealldetails}></Route>
      <Route path="/cart" exact component={cart} key={App.cart}></Route>
+     <Route path="/admin/admin" exact component={admin} key={App.admin}></Route>
      
 
   <Footer/>
