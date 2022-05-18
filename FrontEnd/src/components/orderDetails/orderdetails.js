@@ -1,68 +1,14 @@
-import React, { useState } from 'react';
+import React from "react";
 import "./orderdetails.css";
 import SvgComponent from "./visa";
 import CodComponent from "./cod"
-import axios from "axios";
-import validator from 'validator'
 
-function Orderdetails() {
-
-  const [fname, setFname] = useState();
-  const [email, setEmail] = useState();
-  const [tpnumber, setTpnumber] = useState();
-  const [address, setAddress] = useState();
-  const [city, setCity] = useState();
-  const [stpnumber, setStpnumber] = useState();
-  const [paymethod, setPaymethod] = useState();
-
-  const [emailError, setEmailError] = useState('')
-  const validateEmail = (e) => {
-    var email = e.target.value
-   
-    if (validator.isEmail(email)) {
-      setEmailError('')
-      setEmail(email)
-    } else {
-      setEmailError('Please enter valid email')
-    }
-  }
-
-
- function sendData(e){
-   e.preventDefault();
-
-   const newDetail = {
-
-    fname,
-    email,
-    tpnumber,
-    address,
-    city,
-    stpnumber,
-    paymethod
-
-   }
-
-   
-
-  //  console.log(newDetail);
-  
-  axios.post('http://localhost:8090/details/add',newDetail).then(()=>{
-    alert("Details Added Successfully 🚀");
-    console.log(newDetail);
-    window.location.reload();
-  }).catch((err)=>{
-    alert(err);
-    console.log("err");
-  })
-
- }
-
+function orderdetails() {
   return (
 
-    <div >
-       <form onSubmit={sendData}>
-      <h1 className="ml-4 h4 mt-3 text-decoration-underline"><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Order Details</h1>
+    <div>
+
+      <h1 className="ml-4 h4 mt-3 text-decoration-underline"><i class="fa fa-check-circle" aria-hidden="true"></i>&nbsp;Order Details</h1>
       <div className="row mt-3">
         <div className="col-sm-7 ml-4">
           <div className="card shadow p-3 mb-5 bg-white rounded">
@@ -84,48 +30,21 @@ function Orderdetails() {
                       id="form6Example3"
                       className="form-control"
                       placeholder="Janith Dilshan Perera"
-                      onChange={e => setFname(e.target.value)}
                     />
                   </div>
 
                   <div className="row mb-4">
                     <div className="col">
-                    {/* <pre>
-        <h2>How to Validate an Email Address in  ReactJS</h2>
-        <span>Enter Email: </span><input type="text" id="userEmail"
-        onChange={(e) => validateEmail(e)}></input> <br /><br /><br />
-        <h3 style={{
-          fontWeight: 'bold',
-          color: 'red',
-        }}>{emailError}</h3>
-      </pre> */}
-
-      
                       <div className="form-outline">
                         <label className="form-label" htmlFor="form6Example1">
                           <b>Email</b>
                         </label>
-                        {/* <input
+                        <input
                           type="email"
-                          required 
-                          class="form-control"
                           id="form6Example1"
                           className="form-control"
                           placeholder="janith@profile.com"
-                          onChange={e => setEmail(e.target.value)}
-
-                        /> */}
-
-                        <input type="text"  class="form-control"
-                          id="form6Example1"
-                          className="form-control"
-                          placeholder="janith@profile.com"
-        onChange={(e) => validateEmail(e)}/>
-        <span style={{
-        
-          color: 'red',
-          fontSize : '11px'
-        }}>{emailError}</span>
+                        />
                       </div>
                     </div>
                     <div className="col">
@@ -134,11 +53,10 @@ function Orderdetails() {
                           <b>Telephone</b>
                         </label>
                         <input
-                          type="tel"
+                          type="text"
                           id="form6Example2"
                           className="form-control"
                           placeholder="070-XXXXXXX"
-                          onChange={e => setTpnumber(e.target.value)}
                         />
                       </div>
                     </div>
@@ -173,20 +91,20 @@ function Orderdetails() {
                   </p>
                 
               </div> */}
-            <table className="table table-hover table-borderless">
+            <table class="table table-hover table-borderless">
 
               <tbody>
-                <tr className="h5">
+                <tr class="h5">
                   <td >Sub Total</td>
-                  <td className="text-right">Rs. 2000.00</td>
+                  <td class="text-right">Rs. 2000.00</td>
                 </tr>
-                <tr className="text-warning">
+                <tr class="text-warning">
                   <td>Discout</td>
-                  <td className="text-right">Rs. 500.00</td>
+                  <td class="text-right">Rs. 500.00</td>
                 </tr>
-                <tr className="h5 text-success">
+                <tr class="h5 text-success">
                   <td >Total Price</td>
-                  <td className="text-right">Rs. 1500.00</td>
+                  <td class="text-right">Rs. 1500.00</td>
                 </tr>
               </tbody>
             </table>
@@ -214,7 +132,6 @@ function Orderdetails() {
                     id="form6Example3"
                     className="form-control"
                     placeholder="No3, Kadahapola Gedara, Mathale"
-                    onChange={e => setAddress(e.target.value)}
                   />
                 </div>
 
@@ -225,15 +142,11 @@ function Orderdetails() {
                         <b>City</b>
                       </label>
 
-                      <select id="demo_overview" className="form-control dropdown-toggle selectpicker show-tick" onChange={e => setCity(e.target.value)} data-role="select-dropdown" data-live-search="true">
+                      <select id="demo_overview" class="form-control dropdown-toggle selectpicker show-tick" data-role="select-dropdown" data-live-search="true">
                         <option >Badulla</option>
-                        <option default>Bandarawela</option>
+                        <option Default>Bandarawela</option>
                         <option>Kadawatha</option>
                         <option>Kurunagala</option>
-                        <option>Kandy</option>
-                        <option>Galle</option>
-                        <option>Jaffna</option>
-                        <option>Dambulla</option>
                       </select>
 
 
@@ -245,14 +158,11 @@ function Orderdetails() {
                         <b>Secondary Phone</b>
                       </label>
                       <input
-                        type="tel"
+                        type="number"
                         id="form6Example2"
-                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                         className="form-control"
                         placeholder="070-XXXXXXX"
-                        onChange={e => setStpnumber(e.target.value)}
                       />
-                      <span className="validity"></span>
                     </div>
                   </div>
                 </div>
@@ -276,13 +186,13 @@ function Orderdetails() {
             Payment Methods
           </div>
           <div className="card-body ml-2">
-            <div className="form-check">
+            <div class="form-check">
 
-              <div className="tg-wrap"><table>
+              <div class="tg-wrap"><table>
 
-                <div className="form-check">
+                <div class="form-check">
                   <tr>
-                    <td><input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"  onChange={e => setPaymethod(e.target.value)} checked /></td>
+                    <td><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
                     <td>
 
                       <CodComponent
@@ -294,46 +204,42 @@ function Orderdetails() {
                       {/* <img src="../../images/cod.png" style={{width: '55%', height: '50%'}}></img> */}
 
                     </td>
-                    <td><option className="form-check-label" htmlFor="flexRadioDefault2" value="CashOnDelivery">
+                    <td><label class="form-check-label" for="flexRadioDefault2">
                       Cash on Delivery
-                    </option></td>
+                    </label></td>
                   </tr>
 
                   <tr>
-                    <td><input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
+                    <td><input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked /></td>
                     <td><SvgComponent
                       height={50}
                       width={50}
                       className="ml-3 mr-3 mb-1"
 
                     /></td>
-                    <td><option className="form-check-label" htmlFor="flexRadioDefault2" value="VisaMaster">
+                    <td><label class="form-check-label" for="flexRadioDefault2">
 
                       Pay by Visa Master Credit/Debit Card
-                    </option></td>
+                    </label></td>
                   </tr>
                 </div>
               </table></div>
             </div>
 
 
-            
+
 
           </div>
 
-         
+
         </div>
-       
       </div>
       <div className="col-sm-7 ml-4">
-        <div className="alert alert-success" role="alert">
-        <i className="fa fa-cloud" aria-hidden="false"></i> 
-        All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law of (Address).
+        <div class="alert alert-success" role="alert">
+        <i class="fa fa-cloud" aria-hidden="false"></i> 
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ut lacinia lorem, nec elementum lectus. Integer in tortor in magna posuere dictum. Phasellus consectetur nibh justo, maximus rhoncus ipsum gravida in. In malesuada orci odio, quis congue neque facilisis vitae. Aenean tempus convallis nibh.
         </div>
-        <button type="submit" className="btn btn-primary d-block mr-0 ml-auto mb-3">SUBMIT</button>
       </div>
-      
-      </form>
     </div>
 
 
@@ -342,4 +248,4 @@ function Orderdetails() {
   );
 }
 
-export default Orderdetails;
+export default orderdetails;

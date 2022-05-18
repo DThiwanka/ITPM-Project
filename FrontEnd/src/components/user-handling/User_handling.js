@@ -54,7 +54,7 @@ const User_handling = ({ history }) => {
                         </form>
                     </div>
                     <div className='stockButtonContainer'>
-                        <button className='pdfBtn'><img alt='none' src={pdf_ico} /></button>
+                        <button className='pdfBtn'><img src={pdf_ico} /></button>
                     </div>
                 </div>
 

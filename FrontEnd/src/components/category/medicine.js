@@ -69,23 +69,23 @@ const Medicine = () => {
           <h5>Ratings</h5>
 
           <label className="radioLabel">
-            <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+            <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
           </label>
 
           <label className="radioLabel">
-            <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+            <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
           </label>
 
           <label className="radioLabel">
-            <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+            <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
           </label>
 
           <label className="radioLabel">
-            <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+            <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} />
           </label>
 
           <label className="radioLabel">
-            <input type="checkbox" /><img alt='none' src={star_ico} />
+            <input type="checkbox" /><img src={star_ico} />
           </label>
 
         </div>
@@ -114,7 +114,7 @@ const Medicine = () => {
               <div className="itemBox">
                 <tabel>
                   <tr>
-                    <img alt='none' src={product.image} />
+                    <img src={product.image} />
                   </tr>
                   <tr>
                     <h5>{product.name}</h5>

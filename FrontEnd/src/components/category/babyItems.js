@@ -8,7 +8,7 @@ import '../../CSS/medicine.css'
 import star_ico from '../../Icons/Categories_Icons/star.png'
 
 //import item_imgs
-import toy__img from '../../Images/Item_Images/toy.png'
+import toy__img from '../../images/Item_Images/toy.png'
 
 const babyItems = () => {
     return (
@@ -59,23 +59,23 @@ const babyItems = () => {
                     <h5>Ratings</h5>
 
                     <label className="radioLabel">
-                        <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+                        <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
                     </label>
 
                     <label className="radioLabel">
-                        <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+                        <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
                     </label>
 
                     <label className="radioLabel">
-                        <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+                        <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} /> <img src={star_ico} />
                     </label>
 
                     <label className="radioLabel">
-                        <input type="checkbox" /><img alt='none' src={star_ico} /> <img alt='none' src={star_ico} />
+                        <input type="checkbox" /><img src={star_ico} /> <img src={star_ico} />
                     </label>
 
                     <label className="radioLabel">
-                        <input type="checkbox" /><img alt='none' src={star_ico} />
+                        <input type="checkbox" /><img src={star_ico} />
                     </label>
 
                 </div>
@@ -97,7 +97,7 @@ const babyItems = () => {
                     <div className="itemBox">
                         <tabel>
                             <tr>
-                                <img alt='none' src={toy__img} />
+                                <img src={toy__img} />
                             </tr>
                             <tr>
                                 <h5>Item Name</h5>
@@ -114,7 +114,525 @@ const babyItems = () => {
                         </tabel>
                     </div>
 
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
 
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
+
+                    <div className="itemBox">
+                        <tabel>
+                            <tr>
+                                <img src={toy__img} />
+                            </tr>
+                            <tr>
+                                <h5>Item Name</h5>
+                            </tr>
+                            <tr>
+                                <p>category</p>
+                            </tr>
+                            <tr>
+                                <p>price</p>
+                            </tr>
+                            <tr>
+                                <button>To Cart</button>
+                            </tr>
+                        </tabel>
+                    </div>
 
 
 

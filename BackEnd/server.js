@@ -1,41 +1,26 @@
-import express from 'express';
-import path from 'path';
-import mongoose from 'mongoose';
-import bodyParser from 'body-Parser';
-import cors from 'cors';
-import dotenv from 'dotenv';
+import express from 'express'
+import path from 'path'
+import dotenv from 'dotenv'
+import colors from 'colors'
+import connectDB from './config/db.js'
 import { notFound, errorHandler } from './middleware/errorMiddlewre.js'
 
-const app = express();
-dotenv.config();
-
-const PORT = process.env.PORT || 8090;
-
-app.use(cors());
-app.use(bodyParser.json());
-app.use(express.json());
-
-
-const URL = process.env.MONGODB_URL;
-
-mongoose.connect(URL, {
-    // useCreateIndex: true,
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
-    // useFindAndModify: false,
-});
-
-const connection = mongoose.connection;
-connection.once("open", () => {
-    console.log("🚀     MongoDB Connection Successfully!")
-})
-
-
-
-//import routes
 import productRoutes from './routes/productRoutes.js'
 import userRoutes from './routes/userRoutes.js'
 import uploadRoutes from './routes/uploadRoutes.js'
+
+dotenv.config()
+
+connectDB()
+
+const app = express()
+
+app.use(express.json())
+
+app.get('/', (req, res) => {
+    res.send('API is running...')
+})
+
 
 //calling routes
 app.use('/api/products', productRoutes)
@@ -52,13 +37,7 @@ app.use(notFound)
 app.use(errorHandler)
 
 
-import visaRouter from './routes/visas.js'
-app.use("/visa", visaRouter)
+//set PORT number to PORT Variable from dotenv file
+const PORT = process.env.PORT || 5000
 
-
-import detailsRouter from './routes/details.js'
-app.use("/details", detailsRouter)
-
-app.listen(PORT, () => {
-    console.log(`☄️      Server is Up and Running on port : ${PORT}`)
-})
+app.listen(PORT, console.log(`Sever running in ${process.env.NODE_ENV} mode on port ${PORT}`.yellow.bold))

@@ -21,7 +21,7 @@ const adminHeader = () => {
                     <tr>
                         <Link to="/admin/stockHandling">
                             <div className='imgDiv'>
-                                <img alt='none' src={stock_ico} />
+                                <img src={stock_ico} />
                             </div>
                             <p>stocks</p>
                         </Link>
@@ -31,7 +31,7 @@ const adminHeader = () => {
                     <tr>
                         <Link to="#">
                             <div className='imgDiv'>
-                                <img alt='none' src={order_ico} />
+                                <img src={order_ico} />
                             </div>
                             <p>Orders</p>
                         </Link>
@@ -41,7 +41,7 @@ const adminHeader = () => {
                     <tr>
                         <Link to="#">
                             <div className='imgDiv'>
-                                <img alt='none' src={payment_ico} />
+                                <img src={payment_ico} />
                             </div>
                             <p>Payments</p>
                         </Link>
@@ -51,7 +51,7 @@ const adminHeader = () => {
                     <tr>
                         <Link to="/admin/userHandling">
                             <div className='imgDiv'>
-                                <img alt='none' src={profile_ico} />
+                                <img src={profile_ico} />
                             </div>
                             <p>Users</p>
                         </Link>
@@ -61,7 +61,7 @@ const adminHeader = () => {
                     <tr>
                         <a href="/">
                             <div className='imgDiv'>
-                                <img alt='none' src={home_ico} />
+                                <img src={home_ico} />
                             </div>
                             <p>Home</p>
                         </a>

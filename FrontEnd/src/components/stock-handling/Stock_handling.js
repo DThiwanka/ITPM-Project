@@ -80,7 +80,7 @@ const Stock_handling = ({ history, match }) => {
                         </form>
                     </div>
                     <div className='stockButtonContainer'>
-                        <button className='pdfBtn'><img alt='none' src={pdf_ico} /></button>
+                        <button className='pdfBtn'><img src={pdf_ico} /></button>
                         <button className="addItemsBtn" onClick={createProductHandler}><i className='fas fa-plus'></i> Add Item</button>
                     </div>
                 </div>
